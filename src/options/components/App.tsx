@@ -19,7 +19,7 @@ import "src/options/components/App.scss";
 function App() {
   const dispatch = useDispatch();
 
-  const sendFeedbackMessage = chrome.i18n.getMessage("leftNav_sendFeedback", ["james.thomas.hays@gmail.com"]);
+  const sendFeedbackMessage = chrome.i18n.getMessage("leftNav_sendFeedback", ["void0error@gmail.com"]);
 
   function handleResetSettings(event: React.SyntheticEvent): void {
     event.preventDefault();
@@ -39,7 +39,7 @@ function App() {
           <img src="images/logo-white.svg" height="30" alt={GetMessage("extensionName")} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="main-navbar-nav" />
-        <Navbar.Collapse id="main-navbar-nav">
+        <Navbar.Collapse id="main-navbar-nav" className="ms-auto">
           <Nav className="mr-auto">
             <Nav.Link as={NavLink} to="/" exact>
               {GetMessage("leftNav_General")}
