@@ -316,9 +316,9 @@ const wordBank = [
   "repellat",
 ];
 
-const firstNames = ["Anbu", "Jeba"];
+const firstNames = ["Anbu", "Jeba", "Vijay", "Vasanth", "Suriya", "Riyaz", "Hema", "Yogharaj", "Mohamed", "Bearcin", "Dinesh", "Jeya", "Swetha", "Shajid", "Muthu", "Vijay", "Sudharshan", "Khaja", "Gayathri", "Kishor", "Muthu"];
 
-const lastNames = ["Selvan", "Raj"];
+const lastNames = ["Selvan", "Raj", "Sabari", "Kumar", "Kummar", "Mohamed", "Devi", "Dhayalan", "Mushkir", "Sweety", "Suthan", "Rosini", "Ramesh", "Shafee", "Akalya", "Vedhasekaran", "Mariyaan", "Sharif", "Gangathar", "Kumar", "Kumari"];
 
 const organizationSuffix = [
   "Inc",
