@@ -1,12 +1,12 @@
 {
   "extensionName": {
-    "message": "Fake Filler 2"
+    "message": "Fake Filler Indian"
   },
   "extensionName_short": {
-    "message": "FakeFiller2"
+    "message": "Fake Filler IN"
   },
   "extensionDescription": {
-    "message": "A form filler that fills all inputs on a page with fake/dummy data."
+    "message": "A form filler that fills all inputs on a page with indian's fake/dummy data."
   },
   "actionTitle": {
     "message": "Fill All Inputs with Dummy Data"
@@ -21,7 +21,7 @@
     "message": "Fill all inputs"
   },
   "bgPage_errorMigratingOptions": {
-    "message": "An error occurred while migrating Fake Filler 2 options: $1"
+    "message": "An error occurred while migrating Fake Filler IN options: $1"
   },
   "close": {
     "message": "Close"
@@ -135,7 +135,7 @@
     "message": "Custom Fields"
   },
   "customFields_intro": {
-    "message": "Fake Filler 2 can use the ID, NAME and CLASS values of an input field in addition to the label text to determine its data type."
+    "message": "Fake Filler IN can use the ID, NAME and CLASS values of an input field in addition to the label text to determine its data type."
   },
   "customFields_getMoreInfo": {
     "message": "More information on how the extension matches custom fields"

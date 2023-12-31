@@ -320,7 +320,17 @@ const firstNames = ["Anbu", "Jeba"];
 
 const lastNames = ["Selvan", "Raj"];
 
-const organizationSuffix = ["Inc", "Plc", "LLC", "Traders", "Associates", "Trading", "Co"];
+const organizationSuffix = [
+  "Inc",
+  "Private Limited",
+  "Pvt. Ltd.",
+  "Traders",
+  "Associates",
+  "Trading",
+  "Co",
+  "Limited",
+  "LLC",
+];
 
 const domains = [
   ".com",
@@ -328,9 +338,9 @@ const domains = [
   ".org",
   ".info",
   ".biz",
-  ".co.uk",
-  ".org.uk",
-  ".me.uk",
+  ".co.in",
+  ".org.in",
+  ".me.in",
   ".in",
   ".us",
   ".me",
@@ -338,11 +348,10 @@ const domains = [
   ".ca",
   ".cc",
   ".mobi",
-  ".com.au",
-  ".org.au",
   ".tv",
   ".ws",
   ".cm",
+  ".xyz",
 ];
 
 const consonants = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "z"];
