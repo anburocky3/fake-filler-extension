@@ -1,620 +1,620 @@
 {
-    "extensionName": {
-        "message": "Fake Filler 2"
-    },
-    "extensionName_short": {
-        "message": "FakeFiller2"
-    },
-    "extensionDescription": {
-        "message": "Un formulario de relleno que llena todas las entradas de una página con datos falsos/ficticios."
-    },
-    "actionTitle": {
-        "message": "Complete todas las entradas con datos ficticios"
-    },
-    "commands_FillThisForm": {
-        "message": "Llene este formulario"
-    },
-    "commands_fillThisInput": {
-        "message": "Llene este campo de entrada"
-    },
-    "commands_fillAllInputs": {
-        "message": "Llene todas las entradas"
-    },
-    "bgPage_errorMigratingOptions": {
-        "message": "Se produjo un error al migrar las opciones de Fake Filler 2: $1"
-    },
-    "close": {
-        "message": "Cerrar"
-    },
-    "cancel": {
-        "message": "Cancelar"
-    },
-    "save": {
-        "message": "Ahorrar"
-    },
-    "saveSettings": {
-        "message": "Guardar Configuración"
-    },
-    "reset": {
-        "message": "Reiniciar"
-    },
-    "edit": {
-        "message": "Editar"
-    },
-    "move": {
-        "message": "Mover"
-    },
-    "delete": {
-        "message": "Borrar"
-    },
-    "loading": {
-        "message": "Cargando..."
-    },
-    "testMe": {
-        "message": "Pruebame"
-    },
-    "enterCsv": {
-        "message": "Introduzca valores separados por comas."
-    },
-    "leftNav_General": {
-        "message": "General"
-    },
-    "leftNav_customFields": {
-        "message": "Campos Personalizados"
-    },
-    "leftNav_keyboardShortcuts": {
-        "message": "Atajos de Teclado"
-    },
-    "leftNav_backupRestore": {
-        "message": "Copia de Seguridad y Restaurar"
-    },
-    "leftNav_restoreFactorySettings": {
-        "message": "Reiniciar Configuración"
-    },
-    "leftNav_changelog": {
-        "message": "Registro de Cambios"
-    },
-    "leftNav_issueTracker": {
-        "message": "Rastreador de problemas"
-    },
-    "leftNav_confirmResetSettings": {
-        "message": "¿Está seguro de que desea restablecer la configuración predeterminada?"
-    },
-    "leftNav_sendFeedback": {
-        "message": "Si tiene alguna sugerencia para mejorar esta extensión o encuentra algún problema, envíeme un <a href=\"mailto:$1\">correo electrónico</a>."
-    },
-    "backupRestore_title": {
-        "message": "Copia de seguridad y restaurar"
-    },
-    "backupRestore_exportSettings": {
-        "message": "Exportar Configuración"
-    },
-    "backupRestore_importSettings": {
-        "message": "Importar Configuración"
-    },
-    "backupRestore_errorCreatingBackupFile": {
-        "message": "Error al crear el archivo de copia de seguridad: $1"
-    },
-    "backupRestore_settingImportSuccessMessage": {
-        "message": "¡La configuración se importó correctamente! Deberá recargar todas sus pestañas para que la configuración surta efecto."
-    },
-    "backupRestore_confirmRestore": {
-        "message": "¿Está seguro de que desea restaurar la configuración?\n\nNota: Se reemplazarán las configuraciones existentes."
-    },
-    "backupRestore_errorImporting": {
-        "message": "Error al importar desde archivo: $1"
-    },
-    "backupRestore_errorReadingFile": {
-        "message": "Hubo un error al leer el archivo de respaldo."
-    },
-    "backupRestore_copyAndSaveToFile": {
-        "message": "Copie y guarde esto en un archivo de texto."
-    },
-    "backupRestore_continueAnyway": {
-        "message": "De todas maneras, continúe"
-    },
-    "backupRestore_confirmImportOldBackup": {
-        "message": "¿Estás absolutamente seguro? Restaurar esta copia de seguridad podría provocar que la extensión falle."
-    },
-    "backupRestore_oldBackupErrorMessage": {
-        "message": "El archivo de copia de seguridad que está intentando restaurar se creó utilizando una versión anterior de la extensión y no se puede importar."
-    },
-    "kbdShortcuts_title": {
-        "message": "Atajos de teclado"
-    },
-    "kbdShortcuts_changeInstructions": {
-        "message": "<a href=\"https://github.com/calvinballing/fake-filler-extension/wiki/Keyboard-Shortcuts\" target=\"_blank\" rel=\"noopener noreferrer\">Cambiar atajos de teclado</ un>"
-    },
-    "kbdShortcuts_notSet": {
-        "message": "No establecido"
-    },
-    "customFieldDetails_title": {
-        "message": "Detalles del Campo Personalizado"
-    },
-    "customFields_title": {
-        "message": "Campos Personalizados"
-    },
-    "customFields_intro": {
-        "message": "Fake Filler 2 puede usar los valores ID, NAME y CLASS de un campo de entrada además del texto de la etiqueta para determinar su tipo de datos."
-    },
-    "customFields_getMoreInfo": {
-        "message": "Más información sobre cómo la extensión coincide con los campos personalizados"
-    },
-    "customFields_addFieldButtonText": {
-        "message": "Agregue campo"
-    },
-    "customFields_validation_missingType": {
-        "message": "Por favor seleccione un tipo."
-    },
-    "customFields_validation_missingName": {
-        "message": "Introduzca un nombre para este campo personalizado."
-    },
-    "customFields_validation_missingTextMatch": {
-        "message": "Introduzca una coincidencia de texto o una coincidencia de expresión regular."
-    },
-    "customFields_validation_missingTelephoneTemplate": {
-        "message": "Ingrese una plantilla para el número de teléfono."
-    },
-    "customFields_validation_missingMinValue": {
-        "message": "Por favor introduzca un valor mínimo."
-    },
-    "customFields_validation_missingMaxValue": {
-        "message": "Por favor introduzca un valor máximo."
-    },
-    "customFields_validation_missingMaxLength": {
-        "message": "Introduzca un valor para la longitud máxima."
-    },
-    "customFields_validation_invalidMinMaxValue": {
-        "message": "El valor máximo no puede ser menor que el valor mínimo."
-    },
-    "customFields_validation_invalidMaxValue": {
-        "message": "El valor mínimo debe ser mayor que uno."
-    },
-    "customFields_validation_invalidMaxLengthValue": {
-        "message": "El valor de longitud máxima debe ser mayor que uno."
-    },
-    "customFields_validation_missingDateTemplate": {
-        "message": "Introduzca una plantilla para la fecha."
-    },
-    "customFields_validation_missingAlNumTemplate": {
-        "message": "Especifique una plantilla de formato para este campo."
-    },
-    "customFields_validation_missingRegEx": {
-        "message": "Introduzca una expresión regular."
-    },
-    "customFields_validation_missingRandomItems": {
-        "message": "Por favor ingrese algunos elementos."
-    },
-    "customFields_validation_missingDecimalPlaces": {
-        "message": "Por favor introduzca el número de decimales."
-    },
-    "customFields_validation_onlyOneValueInGroup": {
-        "message": "Introduzca solo un valor en este grupo."
-    },
-    "customFields_validation_atLeastOneValueInGroup": {
-        "message": "Introduzca al menos un valor en este grupo."
-    },
-    "customFields_validation_invalidEmailUsername": {
-        "message": "Seleccione la opción de generación de nombre de usuario de correo electrónico."
-    },
-    "customFields_validation_missingEmailUsernameList": {
-        "message": "Por favor ingrese algunos nombres de usuario."
-    },
-    "customFields_validation_missingEmailUsernameRegEx": {
-        "message": "Introduzca una expresión regular."
-    },
-    "customFields_validation_invalidEmailHostname": {
-        "message": "Seleccione la opción de generación de nombre de host de correo electrónico."
-    },
-    "customFields_validation_missingEmailHostnameList": {
-        "message": "Por favor ingrese algunos nombres de host."
-    },
-    "customFields_dateTypeHelp": {
-        "message": "Utiliza moment.js para formatear valores de fecha/hora. Consulte la documentación de moment.js <a href=\"http://momentjs.com/docs/#/displaying/format/\" target=\"_blank\" rel=\"noopener noreferrer\"></ un>. Esto se ignorará para los campos tipo =\"fecha\"."
-    },
-    "customFields_alNumHelp_uppercaseLetter": {
-        "message": "Una LETRA mayúscula."
-    },
-    "customFields_alNumHelp_lowercaseLetter": {
-        "message": "Una letra minúscula."
-    },
-    "customFields_alNumHelp_upperAndLowercaseLetter": {
-        "message": "Una letra (SUPERIOR o inferior)."
-    },
-    "customFields_alNumHelp_uppercaseConsonant": {
-        "message": "Una CONSONANTE mayúscula."
-    },
-    "customFields_alNumHelp_lowercaseConsonant": {
-        "message": "Una consonante mayúscula."
-    },
-    "customFields_alNumHelp_upperAndLowercaseConsonant": {
-        "message": "Una consonante (SUPERIOR o inferior)."
-    },
-    "customFields_alNumHelp_uppercaseVowel": {
-        "message": "Una VOCAL mayúscula."
-    },
-    "customFields_alNumHelp_lowercaseVowel": {
-        "message": "Una vocal minúscula."
-    },
-    "customFields_alNumHelp_upperAndLowercaseVowel": {
-        "message": "Una vocal (SUPERIOR o inferior)."
-    },
-    "customFields_alNumHelp_number09": {
-        "message": "Cualquier número, 0-9."
-    },
-    "customFields_alNumHelp_number19": {
-        "message": "Cualquier número, del 1 al 9."
-    },
-    "customFields_alNumHelp_otherCharactersAsIs": {
-        "message": "Cualquier otro carácter se generará tal cual. Los caracteres anteriores se pueden escapar envolviéndolos entre [corchetes]."
-    },
-    "customFields_regExHelp": {
-        "message": "Utiliza <a href=\"http://fent.github.io/randexp.js/\" target=\"_blank\" rel=\"noreferrer noopener\">randexp.js</a> para generar datos aleatorios basado en un patrón de expresión regular."
-    },
-    "customFields_customFieldDetails": {
-        "message": "Detalles del campo personalizado"
-    },
-    "customFields_label_dataType": {
-        "message": "Tipo de datos"
-    },
-    "customFields_label_friendlyName": {
-        "message": "Nombre amigable"
-    },
-    "customFields_label_match": {
-        "message": "Coincidencia"
-      },
-    "customFields_label_text_match": {
-        "message": "Coincidencia de texto"
-    },
-    "customFields_label_text_match_placeholder": {
-        "message": "Valores Separados por Comas"
-    },
-    "customFields_label_text_match_helpText": {
-        "message": "Introduzca valores separados por comas para que coincidan. Los caracteres no alfanuméricos se eliminarán de las cadenas coincidentes y de las posibles coincidencias antes de intentar realizar la coincidencia."
-    },
-    "customFields_label_regex_match": {
-        "message": "Coincidencia de expresiones regulares"
-    },
-    "customFields_label_regex_match_placeholder": {
-        "message": "Expresiones regulares separadas por comas"
-    },
-    "customFields_label_regex_match_helpText": {
-        "message": "Introduzca expresiones regulares separadas por comas para que coincidan. Asegúrese de que sus expresiones regulares no contengan comas."
-    },
-    "customFields_label_template": {
-        "message": "Plantilla"
-    },
-    "customFields_label_telephoneTemplate_helpText": {
-        "message": "Utilice X para un número entre 1-9 y x para 0-9."
-    },
-    "customFields_label_minValue": {
-        "message": "Valor mínimo"
-    },
-    "customFields_label_maxValue": {
-        "message": "Valor máximo"
-    },
-    "customFields_label_decimalPlaces": {
-        "message": "Lugares Decimales"
-    },
-    "customFields_label_decimalPlaces_helpText": {
-        "message": "El número de dígitos después del punto decimal. p.ej. 2 generará X.XX y 3 generará X.XXX"
-    },
-    "customFields_label_minWords": {
-        "message": "Palabras Mínimas"
-    },
-    "customFields_label_maxWords": {
-        "message": "Palabras Máximas"
-    },
-    "customFields_label_maxLength": {
-        "message": "Longitud Máxima"
-    },
-    "customFields_label_format": {
-        "message": "Formato"
-    },
-    "customFields_label_pattern": {
-        "message": "Patrón"
-    },
-    "customFields_label_listItems": {
-        "message": "Listar elementos"
-    },
-    "customFields_label_listItems_placeholder": {
-        "message": "Ingrese cada elemento en una nueva línea."
-    },
-    "customFields_label_minDate": {
-        "message": "Fecha Mínima"
-    },
-    "customFields_label_maxDate": {
-        "message": "Fecha Máxima"
-    },
-    "customFields_label_datePrependText": {
-        "message": "Hoy más"
-    },
-    "customFields_label_dateAppendText": {
-        "message": "días, O"
-    },
-    "customFields_label_date_helpText": {
-        "message": "Ingrese un valor negativo para generar una fecha en el pasado."
-    },
-    "customFields_label_daysFromToday": {
-        "message": "días a partir de hoy"
-    },
-    "customFields_label_hostname": {
-        "message": "Nombre de Host"
-    },
-    "customFields_label_random": {
-        "message": "Aleatorio"
-    },
-    "customFields_label_previousUsername": {
-        "message": "Nombre de usuario generado previamente"
-    },
-    "customFields_label_previousName": {
-        "message": "Nombre y apellido generados previamente"
-    },
-    "customFields_dataType_select": {
-        "message": "-- seleccionar --"
-    },
-    "customFields_dataType_humanDataLabel": {
-        "message": "Datos Humanos"
-    },
-    "customFields_dataType_firstName": {
-        "message": "Nombre de Pila"
-    },
-    "customFields_dataType_lastName": {
-        "message": "Apellido"
-    },
-    "customFields_dataType_fullName": {
-        "message": "Nombre Completo"
-    },
-    "customFields_dataType_username": {
-        "message": "Nombre de Usuario"
-    },
-    "customFields_dataType_emailAddress": {
-        "message": "Dirección de Correo Electrónico"
-    },
-    "customFields_dataType_companyName": {
-        "message": "Nombre de la Organización/Compañía"
-    },
-    "customFields_dataType_telephone": {
-        "message": "Número de Teléfono"
-    },
-    "customFields_dataType_number": {
-        "message": "Número"
-    },
-    "customFields_dataType_date": {
-        "message": "Fecha"
-    },
-    "customFields_dataType_url": {
-        "message": "URL/Dirección del Sitio Web"
-    },
-    "customFields_dataType_otherLabel": {
-        "message": "Otro"
-    },
-    "customFields_dataType_text": {
-        "message": "Texto"
-    },
-    "customFields_dataType_alphaNumeric": {
-        "message": "Alfanumérico"
-    },
-    "customFields_dataType_regEx": {
-        "message": "Expresión Regular"
-    },
-    "customFields_dataType_randomizedList": {
-        "message": "Lista Aleatoria"
-    },
-    "customFields_delete_confirm_message": {
-        "message": "¿Está seguro de que desea eliminar este campo personalizado?"
-    },
-    "customFields_ordering_help": {
-        "message": "Inputs will be filled by the first rule they match."
-      },
-    "customFields_label_hostName_randomLabel": {
-        "message": "Utilice un nombre de host generado aleatoriamente"
-    },
-    "customFields_label_hostName_listLabel": {
-        "message": "Seleccione de la lista a continuación:"
-    },
-    "customFields_label_hostName_listTextHelp": {
-        "message": "Enumere cada nombre con una coma. También puedes incluir el signo @."
-    },
-    "customFields_label_emailUsernamePrefix": {
-        "message": "Prefijo de Nombre de Usuario"
-    },
-    "customFields_label_emailUsernameSuffix": {
-        "message": "Sufijo de Nombre de Usuario"
-    },
-     "customFields_label_emailUsernameSuffix_helptext": {
-        "message": "'[hostname]' en el sufijo será reemplazado dinámicamente con el hostname del sitio actual"
-    },
-    "customFields_label_username": {
-        "message": "Nombre de Usuario"
-    },
-    "customFields_label_username_usernameLabel": {
-        "message": "Utilice un nombre de usuario generado previamente"
-    },
-    "customFields_label_username_nameLabel": {
-        "message": "Utilice un nombre y apellido previamente generados"
-    },
-    "customFields_label_username_randomLabel": {
-        "message": "Usa un nombre aleatorio"
-    },
-    "customFields_label_username_listLabel": {
-        "message": "Seleccione de la lista siguiente (enumere cada nombre con una coma):"
-    },
-    "customFields_label_username_regExLabel": {
-        "message": "Utilice esta expresión regular:"
-    },
-    "customFields_label_username_regExTextPlaceholder": {
-        "message": "Una expresión regular."
-    },
-    "generalSettings_validation_enterPassword": {
-        "message": "Porfavor ingrese una contraseña."
-    },
-    "generalSettings_validation_enterAtLeastOneMatch": {
-        "message": "Debes seleccionar al menos una opción."
-    },
-    "generalSettings_validation_invalidDefaultMaxLength": {
-        "message": "El valor de longitud máxima predeterminado debe ser mayor que cero."
-    },
-    "generalSettings_passwordSettings": {
-        "message": "Configuración de Contraseña"
-    },
-    "generalSettings_fieldOptions": {
-        "message": "Opciones de Campo"
-    },
-    "generalSettings_ignoreFieldsMatch": {
-        "message": "Ignorar Coincidencia de Campos"
-    },
-    "generalSettings_ignoreHiddenFieldsLabel": {
-        "message": "Ignorar todos los campos ocultos/invisibles"
-    },
-    "generalSettings_ignoreFieldsWithContentLabel": {
-        "message": "Ignorar campos que ya tienen contenido"
-    },
-    "generalSettings_note": {
-        "message": "Nota"
-    },
-    "generalSettings_confirmationFieldsMatch": {
-        "message": "Coincidencia de Campos de Confirmación"
-    },
-    "generalSettings_confirmFieldsHelp": {
-        "message": "Los datos ingresados en un campo de entrada anterior se utilizarán para entradas que coincidan con cualquiera de estos valores."
-    },
-    "generalSettings_agreeToTermsMatch": {
-        "message": "Aceptar los Términos Coincidencia de Campos"
-    },
-    "generalSettings_agreeToTermsMatchHelp": {
-        "message": "Las casillas que coincidan con cualquiera de estos valores siempre estarán marcadas."
-    },
-    "generalSettings_customAttributes": {
-        "message": "Atributos Personalizados"
-    },
-    "generalSettings_customAttributes_placeholder": {
-        "message": "Atributos Personalizados"
-    },
-    "generalSettings_customAttributesHelp": {
-        "message": "Escriba una lista separada por comas de atributos personalizados para hacer coincidir"
-    },
-    "generalSettings_urlBlocking": {
-        "message": "Bloqueo de URL"
-    },
-    "generalSettings_urlBlockingLabel": {
-        "message": "URL para Bloquear"
-    },
-    "generalSettings_urlBlockingHelp": {
-        "message": "Ingrese una lista separada por comas de expresiones regulares para que coincidan con las URL. Los campos de estas URL nunca coincidirán con Fake Filler 2."
-    },
-    "generalSettings_triggerEvents": {
-        "message": "Eventos Desencadenantes"
-    },
-    "generalSettings_triggerEventsLabel": {
-        "message": "Activar eventos de clic/cambio en campos de entrada"
-    },
-    "generalSettings_uploadFiles": {
-      "message": "Upload Files"
-    },
-    "generalSettings_uploadFilesLabel": {
-      "message": "Upload example files on file input fields"
-    },
-    "generalSettings_contextMenu": {
-        "message": "Menú de Contexto"
-    },
-    "generalSettings_contextMenuLabel": {
-        "message": "Agregar elementos al menú contextual"
-    },
-    "generalSettings_defaultMaxLength": {
-        "message": "Longitud Máxima"
-    },
-    "generalSettings_defaultMaxLength_help": {
-        "message": "El número máximo predeterminado de caracteres para completar con texto ficticio (cuando no coincide ningún campo personalizado)."
-    },
-    "generalSettings_settingsSaved": {
-        "message": "Configuraciones guardadas."
-    },
-    "generalSettings_matchFieldsUsing": {
-        "message": "Coincidir Campos Usando"
-    },
-    "generalSettings_matchFields_useLabel": {
-        "message": "Texto de etiqueta para la etiqueta de entrada"
-    },
-    "generalSettings_matchFields_useAriaLabel": {
-        "message": "atributo aria-label de la etiqueta de entrada"
-    },
-    "generalSettings_matchFields_useAriaLabelledBy": {
-        "message": "atributo aria-labelledby de la etiqueta de entrada"
-    },
-    "generalSettings_matchFields_useId": {
-        "message": "Atributo 'ID' de la etiqueta de entrada"
-    },
-    "generalSettings_matchFields_useName": {
-        "message": "Atributo de 'name' de la etiqueta de entrada"
-    },
-    "generalSettings_matchFields_useClass": {
-        "message": "Atributo de 'class' de la etiqueta de entrada"
-    },
-    "generalSettings_matchFields_usePlaceholder": {
-        "message": "Atributo de 'placeholder' de la etiqueta de entrada"
-    },
-    "generalSettings_matchFields_mustSelectOneOption": {
-        "message": "Debes seleccionar al menos una opción."
-    },
-    "generalSettings_matchFields_help": {
-        "message": "Consulte la sección de campos personalizados para saber cómo se combinan los elementos de entrada."
-    },
-    "generalSettings_password": {
-        "message": "Contraseña"
-    },
-    "generalSettings_password_randomLabel": {
-        "message": "Genera una contraseña aleatoria de 8 caracteres (se registra en la consola)"
-    },
-    "generalSettings_password_useThisLabel": {
-        "message": "Utilizar esta:"
-    },
-    "generalSettings_passwordHelp": {
-        "message": "Deje este espacio en blanco para generar una contraseña aleatoria de 8 caracteres (se registra en la consola)."
-    },
-    "profile": {
-        "message": "Perfil"
-    },
-    "profiles": {
-        "message": "Perfiles"
-    },
-    "profiles_default_name": {
-        "message": "Predeterminado"
-    },
-    "profiles_delete_button_label": {
-        "message": "Borrar Perfil"
-    },
-    "profiles_create_button_label": {
-        "message": "Nuevo Perfil"
-    },
-    "profile_validation_missingName": {
-        "message": "Introduzca un nombre para este perfil"
-    },
-    "profile_validation_missingUrlMatch": {
-        "message": "Introduzca una expresión regular que coincida con la URL."
-    },
-    "profile_modal_title": {
-        "message": "Detalles del Perfil"
-    },
-    "profile_label_name": {
-        "message": "Nombre de Perfil"
-    },
-    "profile_label_urlMatch": {
-        "message": "Expresión de coincidencia de URL"
-    },
-    "profile_label_urlMatch_helpText": {
-        "message": "Introduzca una expresión regular que coincida con la URL a la que se aplicará este perfil."
-    },
-    "profile_delete_confirm_message": {
-        "message": "¿Estás seguro de que deseas eliminar este perfil?"
-    },
-    "profile_url_matching_expression": {
-        "message": "Expresión de Coincidencia de URL"
-    },
-    "matchedProfile": {
-        "message": "Perfil Coincidente"
-    },
-    "matchedBlockedURL": {
-        "message": "Coincidió con una URL Bloqueada"
-    }
+  "extensionName": {
+    "message": "Fake Filler 2"
+  },
+  "extensionName_short": {
+    "message": "FakeFiller2"
+  },
+  "extensionDescription": {
+    "message": "Un formulario de relleno que llena todas las entradas de una página con datos falsos/ficticios."
+  },
+  "actionTitle": {
+    "message": "Complete todas las entradas con datos ficticios"
+  },
+  "commands_FillThisForm": {
+    "message": "Llene este formulario"
+  },
+  "commands_fillThisInput": {
+    "message": "Llene este campo de entrada"
+  },
+  "commands_fillAllInputs": {
+    "message": "Llene todas las entradas"
+  },
+  "bgPage_errorMigratingOptions": {
+    "message": "Se produjo un error al migrar las opciones de Fake Filler 2: $1"
+  },
+  "close": {
+    "message": "Cerrar"
+  },
+  "cancel": {
+    "message": "Cancelar"
+  },
+  "save": {
+    "message": "Ahorrar"
+  },
+  "saveSettings": {
+    "message": "Guardar Configuración"
+  },
+  "reset": {
+    "message": "Reiniciar"
+  },
+  "edit": {
+    "message": "Editar"
+  },
+  "move": {
+    "message": "Mover"
+  },
+  "delete": {
+    "message": "Borrar"
+  },
+  "loading": {
+    "message": "Cargando..."
+  },
+  "testMe": {
+    "message": "Pruebame"
+  },
+  "enterCsv": {
+    "message": "Introduzca valores separados por comas."
+  },
+  "leftNav_General": {
+    "message": "General"
+  },
+  "leftNav_customFields": {
+    "message": "Campos Personalizados"
+  },
+  "leftNav_keyboardShortcuts": {
+    "message": "Atajos de Teclado"
+  },
+  "leftNav_backupRestore": {
+    "message": "Copia de Seguridad y Restaurar"
+  },
+  "leftNav_restoreFactorySettings": {
+    "message": "Reiniciar Configuración"
+  },
+  "leftNav_changelog": {
+    "message": "Registro de Cambios"
+  },
+  "leftNav_issueTracker": {
+    "message": "Rastreador de problemas"
+  },
+  "leftNav_confirmResetSettings": {
+    "message": "¿Está seguro de que desea restablecer la configuración predeterminada?"
+  },
+  "leftNav_sendFeedback": {
+    "message": "Si tiene alguna sugerencia para mejorar esta extensión o encuentra algún problema, envíeme un <a href=\"mailto:$1\">correo electrónico</a>."
+  },
+  "backupRestore_title": {
+    "message": "Copia de seguridad y restaurar"
+  },
+  "backupRestore_exportSettings": {
+    "message": "Exportar Configuración"
+  },
+  "backupRestore_importSettings": {
+    "message": "Importar Configuración"
+  },
+  "backupRestore_errorCreatingBackupFile": {
+    "message": "Error al crear el archivo de copia de seguridad: $1"
+  },
+  "backupRestore_settingImportSuccessMessage": {
+    "message": "¡La configuración se importó correctamente! Deberá recargar todas sus pestañas para que la configuración surta efecto."
+  },
+  "backupRestore_confirmRestore": {
+    "message": "¿Está seguro de que desea restaurar la configuración?\n\nNota: Se reemplazarán las configuraciones existentes."
+  },
+  "backupRestore_errorImporting": {
+    "message": "Error al importar desde archivo: $1"
+  },
+  "backupRestore_errorReadingFile": {
+    "message": "Hubo un error al leer el archivo de respaldo."
+  },
+  "backupRestore_copyAndSaveToFile": {
+    "message": "Copie y guarde esto en un archivo de texto."
+  },
+  "backupRestore_continueAnyway": {
+    "message": "De todas maneras, continúe"
+  },
+  "backupRestore_confirmImportOldBackup": {
+    "message": "¿Estás absolutamente seguro? Restaurar esta copia de seguridad podría provocar que la extensión falle."
+  },
+  "backupRestore_oldBackupErrorMessage": {
+    "message": "El archivo de copia de seguridad que está intentando restaurar se creó utilizando una versión anterior de la extensión y no se puede importar."
+  },
+  "kbdShortcuts_title": {
+    "message": "Atajos de teclado"
+  },
+  "kbdShortcuts_changeInstructions": {
+    "message": "<a href=\"https://github.com/calvinballing/fake-filler-extension/wiki/Keyboard-Shortcuts\" target=\"_blank\" rel=\"noopener noreferrer\">Cambiar atajos de teclado</ un>"
+  },
+  "kbdShortcuts_notSet": {
+    "message": "No establecido"
+  },
+  "customFieldDetails_title": {
+    "message": "Detalles del Campo Personalizado"
+  },
+  "customFields_title": {
+    "message": "Campos Personalizados"
+  },
+  "customFields_intro": {
+    "message": "Fake Filler 2 puede usar los valores ID, NAME y CLASS de un campo de entrada además del texto de la etiqueta para determinar su tipo de datos."
+  },
+  "customFields_getMoreInfo": {
+    "message": "Más información sobre cómo la extensión coincide con los campos personalizados"
+  },
+  "customFields_addFieldButtonText": {
+    "message": "Agregue campo"
+  },
+  "customFields_validation_missingType": {
+    "message": "Por favor seleccione un tipo."
+  },
+  "customFields_validation_missingName": {
+    "message": "Introduzca un nombre para este campo personalizado."
+  },
+  "customFields_validation_missingTextMatch": {
+    "message": "Introduzca una coincidencia de texto o una coincidencia de expresión regular."
+  },
+  "customFields_validation_missingTelephoneTemplate": {
+    "message": "Ingrese una plantilla para el número de teléfono."
+  },
+  "customFields_validation_missingMinValue": {
+    "message": "Por favor introduzca un valor mínimo."
+  },
+  "customFields_validation_missingMaxValue": {
+    "message": "Por favor introduzca un valor máximo."
+  },
+  "customFields_validation_missingMaxLength": {
+    "message": "Introduzca un valor para la longitud máxima."
+  },
+  "customFields_validation_invalidMinMaxValue": {
+    "message": "El valor máximo no puede ser menor que el valor mínimo."
+  },
+  "customFields_validation_invalidMaxValue": {
+    "message": "El valor mínimo debe ser mayor que uno."
+  },
+  "customFields_validation_invalidMaxLengthValue": {
+    "message": "El valor de longitud máxima debe ser mayor que uno."
+  },
+  "customFields_validation_missingDateTemplate": {
+    "message": "Introduzca una plantilla para la fecha."
+  },
+  "customFields_validation_missingAlNumTemplate": {
+    "message": "Especifique una plantilla de formato para este campo."
+  },
+  "customFields_validation_missingRegEx": {
+    "message": "Introduzca una expresión regular."
+  },
+  "customFields_validation_missingRandomItems": {
+    "message": "Por favor ingrese algunos elementos."
+  },
+  "customFields_validation_missingDecimalPlaces": {
+    "message": "Por favor introduzca el número de decimales."
+  },
+  "customFields_validation_onlyOneValueInGroup": {
+    "message": "Introduzca solo un valor en este grupo."
+  },
+  "customFields_validation_atLeastOneValueInGroup": {
+    "message": "Introduzca al menos un valor en este grupo."
+  },
+  "customFields_validation_invalidEmailUsername": {
+    "message": "Seleccione la opción de generación de nombre de usuario de correo electrónico."
+  },
+  "customFields_validation_missingEmailUsernameList": {
+    "message": "Por favor ingrese algunos nombres de usuario."
+  },
+  "customFields_validation_missingEmailUsernameRegEx": {
+    "message": "Introduzca una expresión regular."
+  },
+  "customFields_validation_invalidEmailHostname": {
+    "message": "Seleccione la opción de generación de nombre de host de correo electrónico."
+  },
+  "customFields_validation_missingEmailHostnameList": {
+    "message": "Por favor ingrese algunos nombres de host."
+  },
+  "customFields_dateTypeHelp": {
+    "message": "Utiliza moment.js para formatear valores de fecha/hora. Consulte la documentación de moment.js <a href=\"http://momentjs.com/docs/#/displaying/format/\" target=\"_blank\" rel=\"noopener noreferrer\"></ un>. Esto se ignorará para los campos tipo =\"fecha\"."
+  },
+  "customFields_alNumHelp_uppercaseLetter": {
+    "message": "Una LETRA mayúscula."
+  },
+  "customFields_alNumHelp_lowercaseLetter": {
+    "message": "Una letra minúscula."
+  },
+  "customFields_alNumHelp_upperAndLowercaseLetter": {
+    "message": "Una letra (SUPERIOR o inferior)."
+  },
+  "customFields_alNumHelp_uppercaseConsonant": {
+    "message": "Una CONSONANTE mayúscula."
+  },
+  "customFields_alNumHelp_lowercaseConsonant": {
+    "message": "Una consonante mayúscula."
+  },
+  "customFields_alNumHelp_upperAndLowercaseConsonant": {
+    "message": "Una consonante (SUPERIOR o inferior)."
+  },
+  "customFields_alNumHelp_uppercaseVowel": {
+    "message": "Una VOCAL mayúscula."
+  },
+  "customFields_alNumHelp_lowercaseVowel": {
+    "message": "Una vocal minúscula."
+  },
+  "customFields_alNumHelp_upperAndLowercaseVowel": {
+    "message": "Una vocal (SUPERIOR o inferior)."
+  },
+  "customFields_alNumHelp_number09": {
+    "message": "Cualquier número, 0-9."
+  },
+  "customFields_alNumHelp_number19": {
+    "message": "Cualquier número, del 1 al 9."
+  },
+  "customFields_alNumHelp_otherCharactersAsIs": {
+    "message": "Cualquier otro carácter se generará tal cual. Los caracteres anteriores se pueden escapar envolviéndolos entre [corchetes]."
+  },
+  "customFields_regExHelp": {
+    "message": "Utiliza <a href=\"http://fent.github.io/randexp.js/\" target=\"_blank\" rel=\"noreferrer noopener\">randexp.js</a> para generar datos aleatorios basado en un patrón de expresión regular."
+  },
+  "customFields_customFieldDetails": {
+    "message": "Detalles del campo personalizado"
+  },
+  "customFields_label_dataType": {
+    "message": "Tipo de datos"
+  },
+  "customFields_label_friendlyName": {
+    "message": "Nombre amigable"
+  },
+  "customFields_label_match": {
+    "message": "Coincidencia"
+  },
+  "customFields_label_text_match": {
+    "message": "Coincidencia de texto"
+  },
+  "customFields_label_text_match_placeholder": {
+    "message": "Valores Separados por Comas"
+  },
+  "customFields_label_text_match_helpText": {
+    "message": "Introduzca valores separados por comas para que coincidan. Los caracteres no alfanuméricos se eliminarán de las cadenas coincidentes y de las posibles coincidencias antes de intentar realizar la coincidencia."
+  },
+  "customFields_label_regex_match": {
+    "message": "Coincidencia de expresiones regulares"
+  },
+  "customFields_label_regex_match_placeholder": {
+    "message": "Expresiones regulares separadas por comas"
+  },
+  "customFields_label_regex_match_helpText": {
+    "message": "Introduzca expresiones regulares separadas por comas para que coincidan. Asegúrese de que sus expresiones regulares no contengan comas."
+  },
+  "customFields_label_template": {
+    "message": "Plantilla"
+  },
+  "customFields_label_telephoneTemplate_helpText": {
+    "message": "Utilice X para un número entre 1-9 y x para 0-9."
+  },
+  "customFields_label_minValue": {
+    "message": "Valor mínimo"
+  },
+  "customFields_label_maxValue": {
+    "message": "Valor máximo"
+  },
+  "customFields_label_decimalPlaces": {
+    "message": "Lugares Decimales"
+  },
+  "customFields_label_decimalPlaces_helpText": {
+    "message": "El número de dígitos después del punto decimal. p.ej. 2 generará X.XX y 3 generará X.XXX"
+  },
+  "customFields_label_minWords": {
+    "message": "Palabras Mínimas"
+  },
+  "customFields_label_maxWords": {
+    "message": "Palabras Máximas"
+  },
+  "customFields_label_maxLength": {
+    "message": "Longitud Máxima"
+  },
+  "customFields_label_format": {
+    "message": "Formato"
+  },
+  "customFields_label_pattern": {
+    "message": "Patrón"
+  },
+  "customFields_label_listItems": {
+    "message": "Listar elementos"
+  },
+  "customFields_label_listItems_placeholder": {
+    "message": "Ingrese cada elemento en una nueva línea."
+  },
+  "customFields_label_minDate": {
+    "message": "Fecha Mínima"
+  },
+  "customFields_label_maxDate": {
+    "message": "Fecha Máxima"
+  },
+  "customFields_label_datePrependText": {
+    "message": "Hoy más"
+  },
+  "customFields_label_dateAppendText": {
+    "message": "días, O"
+  },
+  "customFields_label_date_helpText": {
+    "message": "Ingrese un valor negativo para generar una fecha en el pasado."
+  },
+  "customFields_label_daysFromToday": {
+    "message": "días a partir de hoy"
+  },
+  "customFields_label_hostname": {
+    "message": "Nombre de Host"
+  },
+  "customFields_label_random": {
+    "message": "Aleatorio"
+  },
+  "customFields_label_previousUsername": {
+    "message": "Nombre de usuario generado previamente"
+  },
+  "customFields_label_previousName": {
+    "message": "Nombre y apellido generados previamente"
+  },
+  "customFields_dataType_select": {
+    "message": "-- seleccionar --"
+  },
+  "customFields_dataType_humanDataLabel": {
+    "message": "Datos Humanos"
+  },
+  "customFields_dataType_firstName": {
+    "message": "Nombre de Pila"
+  },
+  "customFields_dataType_lastName": {
+    "message": "Apellido"
+  },
+  "customFields_dataType_fullName": {
+    "message": "Nombre Completo"
+  },
+  "customFields_dataType_username": {
+    "message": "Nombre de Usuario"
+  },
+  "customFields_dataType_emailAddress": {
+    "message": "Dirección de Correo Electrónico"
+  },
+  "customFields_dataType_companyName": {
+    "message": "Nombre de la Organización/Compañía"
+  },
+  "customFields_dataType_telephone": {
+    "message": "Número de Teléfono"
+  },
+  "customFields_dataType_number": {
+    "message": "Número"
+  },
+  "customFields_dataType_date": {
+    "message": "Fecha"
+  },
+  "customFields_dataType_url": {
+    "message": "URL/Dirección del Sitio Web"
+  },
+  "customFields_dataType_otherLabel": {
+    "message": "Otro"
+  },
+  "customFields_dataType_text": {
+    "message": "Texto"
+  },
+  "customFields_dataType_alphaNumeric": {
+    "message": "Alfanumérico"
+  },
+  "customFields_dataType_regEx": {
+    "message": "Expresión Regular"
+  },
+  "customFields_dataType_randomizedList": {
+    "message": "Lista Aleatoria"
+  },
+  "customFields_delete_confirm_message": {
+    "message": "¿Está seguro de que desea eliminar este campo personalizado?"
+  },
+  "customFields_ordering_help": {
+    "message": "Inputs will be filled by the first rule they match."
+  },
+  "customFields_label_hostName_randomLabel": {
+    "message": "Utilice un nombre de host generado aleatoriamente"
+  },
+  "customFields_label_hostName_listLabel": {
+    "message": "Seleccione de la lista a continuación:"
+  },
+  "customFields_label_hostName_listTextHelp": {
+    "message": "Enumere cada nombre con una coma. También puedes incluir el signo @."
+  },
+  "customFields_label_emailUsernamePrefix": {
+    "message": "Prefijo de Nombre de Usuario"
+  },
+  "customFields_label_emailUsernameSuffix": {
+    "message": "Sufijo de Nombre de Usuario"
+  },
+  "customFields_label_emailUsernameSuffix_helptext": {
+    "message": "'[hostname]' en el sufijo será reemplazado dinámicamente con el hostname del sitio actual"
+  },
+  "customFields_label_username": {
+    "message": "Nombre de Usuario"
+  },
+  "customFields_label_username_usernameLabel": {
+    "message": "Utilice un nombre de usuario generado previamente"
+  },
+  "customFields_label_username_nameLabel": {
+    "message": "Utilice un nombre y apellido previamente generados"
+  },
+  "customFields_label_username_randomLabel": {
+    "message": "Usa un nombre aleatorio"
+  },
+  "customFields_label_username_listLabel": {
+    "message": "Seleccione de la lista siguiente (enumere cada nombre con una coma):"
+  },
+  "customFields_label_username_regExLabel": {
+    "message": "Utilice esta expresión regular:"
+  },
+  "customFields_label_username_regExTextPlaceholder": {
+    "message": "Una expresión regular."
+  },
+  "generalSettings_validation_enterPassword": {
+    "message": "Porfavor ingrese una contraseña."
+  },
+  "generalSettings_validation_enterAtLeastOneMatch": {
+    "message": "Debes seleccionar al menos una opción."
+  },
+  "generalSettings_validation_invalidDefaultMaxLength": {
+    "message": "El valor de longitud máxima predeterminado debe ser mayor que cero."
+  },
+  "generalSettings_passwordSettings": {
+    "message": "Configuración de Contraseña"
+  },
+  "generalSettings_fieldOptions": {
+    "message": "Opciones de Campo"
+  },
+  "generalSettings_ignoreFieldsMatch": {
+    "message": "Ignorar Coincidencia de Campos"
+  },
+  "generalSettings_ignoreHiddenFieldsLabel": {
+    "message": "Ignorar todos los campos ocultos/invisibles"
+  },
+  "generalSettings_ignoreFieldsWithContentLabel": {
+    "message": "Ignorar campos que ya tienen contenido"
+  },
+  "generalSettings_note": {
+    "message": "Nota"
+  },
+  "generalSettings_confirmationFieldsMatch": {
+    "message": "Coincidencia de Campos de Confirmación"
+  },
+  "generalSettings_confirmFieldsHelp": {
+    "message": "Los datos ingresados en un campo de entrada anterior se utilizarán para entradas que coincidan con cualquiera de estos valores."
+  },
+  "generalSettings_agreeToTermsMatch": {
+    "message": "Aceptar los Términos Coincidencia de Campos"
+  },
+  "generalSettings_agreeToTermsMatchHelp": {
+    "message": "Las casillas que coincidan con cualquiera de estos valores siempre estarán marcadas."
+  },
+  "generalSettings_customAttributes": {
+    "message": "Atributos Personalizados"
+  },
+  "generalSettings_customAttributes_placeholder": {
+    "message": "Atributos Personalizados"
+  },
+  "generalSettings_customAttributesHelp": {
+    "message": "Escriba una lista separada por comas de atributos personalizados para hacer coincidir"
+  },
+  "generalSettings_urlBlocking": {
+    "message": "Bloqueo de URL"
+  },
+  "generalSettings_urlBlockingLabel": {
+    "message": "URL para Bloquear"
+  },
+  "generalSettings_urlBlockingHelp": {
+    "message": "Ingrese una lista separada por comas de expresiones regulares para que coincidan con las URL. Los campos de estas URL nunca coincidirán con Fake Filler 2."
+  },
+  "generalSettings_triggerEvents": {
+    "message": "Eventos Desencadenantes"
+  },
+  "generalSettings_triggerEventsLabel": {
+    "message": "Activar eventos de clic/cambio en campos de entrada"
+  },
+  "generalSettings_uploadFiles": {
+    "message": "Upload Files"
+  },
+  "generalSettings_uploadFilesLabel": {
+    "message": "Upload example files on file input fields"
+  },
+  "generalSettings_contextMenu": {
+    "message": "Menú de Contexto"
+  },
+  "generalSettings_contextMenuLabel": {
+    "message": "Agregar elementos al menú contextual"
+  },
+  "generalSettings_defaultMaxLength": {
+    "message": "Longitud Máxima"
+  },
+  "generalSettings_defaultMaxLength_help": {
+    "message": "El número máximo predeterminado de caracteres para completar con texto ficticio (cuando no coincide ningún campo personalizado)."
+  },
+  "generalSettings_settingsSaved": {
+    "message": "Configuraciones guardadas."
+  },
+  "generalSettings_matchFieldsUsing": {
+    "message": "Coincidir Campos Usando"
+  },
+  "generalSettings_matchFields_useLabel": {
+    "message": "Texto de etiqueta para la etiqueta de entrada"
+  },
+  "generalSettings_matchFields_useAriaLabel": {
+    "message": "atributo aria-label de la etiqueta de entrada"
+  },
+  "generalSettings_matchFields_useAriaLabelledBy": {
+    "message": "atributo aria-labelledby de la etiqueta de entrada"
+  },
+  "generalSettings_matchFields_useId": {
+    "message": "Atributo 'ID' de la etiqueta de entrada"
+  },
+  "generalSettings_matchFields_useName": {
+    "message": "Atributo de 'name' de la etiqueta de entrada"
+  },
+  "generalSettings_matchFields_useClass": {
+    "message": "Atributo de 'class' de la etiqueta de entrada"
+  },
+  "generalSettings_matchFields_usePlaceholder": {
+    "message": "Atributo de 'placeholder' de la etiqueta de entrada"
+  },
+  "generalSettings_matchFields_mustSelectOneOption": {
+    "message": "Debes seleccionar al menos una opción."
+  },
+  "generalSettings_matchFields_help": {
+    "message": "Consulte la sección de campos personalizados para saber cómo se combinan los elementos de entrada."
+  },
+  "generalSettings_password": {
+    "message": "Contraseña"
+  },
+  "generalSettings_password_randomLabel": {
+    "message": "Genera una contraseña aleatoria de 8 caracteres (se registra en la consola)"
+  },
+  "generalSettings_password_useThisLabel": {
+    "message": "Utilizar esta:"
+  },
+  "generalSettings_passwordHelp": {
+    "message": "Deje este espacio en blanco para generar una contraseña aleatoria de 8 caracteres (se registra en la consola)."
+  },
+  "profile": {
+    "message": "Perfil"
+  },
+  "profiles": {
+    "message": "Perfiles"
+  },
+  "profiles_default_name": {
+    "message": "Predeterminado"
+  },
+  "profiles_delete_button_label": {
+    "message": "Borrar Perfil"
+  },
+  "profiles_create_button_label": {
+    "message": "Nuevo Perfil"
+  },
+  "profile_validation_missingName": {
+    "message": "Introduzca un nombre para este perfil"
+  },
+  "profile_validation_missingUrlMatch": {
+    "message": "Introduzca una expresión regular que coincida con la URL."
+  },
+  "profile_modal_title": {
+    "message": "Detalles del Perfil"
+  },
+  "profile_label_name": {
+    "message": "Nombre de Perfil"
+  },
+  "profile_label_urlMatch": {
+    "message": "Expresión de coincidencia de URL"
+  },
+  "profile_label_urlMatch_helpText": {
+    "message": "Introduzca una expresión regular que coincida con la URL a la que se aplicará este perfil."
+  },
+  "profile_delete_confirm_message": {
+    "message": "¿Estás seguro de que deseas eliminar este perfil?"
+  },
+  "profile_url_matching_expression": {
+    "message": "Expresión de Coincidencia de URL"
+  },
+  "matchedProfile": {
+    "message": "Perfil Coincidente"
+  },
+  "matchedBlockedURL": {
+    "message": "Coincidió con una URL Bloqueada"
+  }
 }

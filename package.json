@@ -1,7 +1,7 @@
 {
   "name": "fake-filler",
-  "version": "4.3.1",
-  "description": "Fills all inputs in a page with dummy data.",
+  "version": "4.2.0",
+  "description": "Fills all inputs in a page with indian dummy data.",
   "scripts": {
     "start": "npm run-script watch",
     "build": "npm run-script build-prod",
@@ -11,7 +11,7 @@
     "clean": "rimraf ./dist",
     "lint": "eslint src/**/*"
   },
-  "author": "Jim Hays",
+  "author": "Anbuselvan Rocky",
   "license": "MIT",
   "private": true,
   "dependencies": {
@@ -59,8 +59,8 @@
     "@types/terser-webpack-plugin": "^4.2.0",
     "@types/webpack": "^4.41.22",
     "@types/webpack-merge": "^4.1.5",
-    "@typescript-eslint/eslint-plugin": "^4.4.0",
-    "@typescript-eslint/parser": "^4.4.0",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
     "autoprefixer": "^10.0.1",
     "babel-loader": "^8.1.0",
     "clean-webpack-plugin": "^3.0.0",
@@ -88,8 +88,8 @@
     "sass-loader": "^10.0.3",
     "source-map-loader": "^1.1.1",
     "terser-webpack-plugin": "^4.2.3",
-    "ts-node": "^9.0.0",
-    "typescript": "^4.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
     "webpack-merge": "^5.2.0"

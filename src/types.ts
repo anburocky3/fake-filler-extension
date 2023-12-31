@@ -86,7 +86,7 @@ export interface IFieldMatchSettings {
   matchPlaceholder: boolean;
   matchAriaLabel: boolean;
   matchAriaLabelledBy: boolean;
-  customAttributes: string[]
+  customAttributes: string[];
 }
 
 export interface IPasswordSettings {

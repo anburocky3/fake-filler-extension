@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -62,7 +62,7 @@
           <div class="form-group row">
             <label class="col-form-label col-sm-4 text-right">First Name (readonly, with value)</label>
             <div class="col-sm-8">
-              <input type="text" name="first_name" class="form-control" value="Alice" readonly />
+              <input type="text" name="first_name" class="form-control" value="Anbu" readonly />
             </div>
           </div>
           <div class="form-group row">
@@ -74,7 +74,7 @@
           <div class="form-group row">
             <label class="col-form-label col-sm-4 text-right">First Name (disabled, with value)</label>
             <div class="col-sm-8">
-              <input type="text" name="first_name" class="form-control" value="Bob" disabled />
+              <input type="text" name="first_name" class="form-control" value="Anbu" disabled />
             </div>
           </div>
           <div class="form-group row">
@@ -98,7 +98,7 @@
           <div class="form-group row">
             <label class="col-form-label col-sm-4 text-right">First Name (with value)</label>
             <div class="col-sm-8">
-              <input type="text" name="first_name" value="Carol" class="form-control" />
+              <input type="text" name="first_name" value="Trisha" class="form-control" />
             </div>
           </div>
           <div class="form-group row">
@@ -170,19 +170,27 @@
           <div class="form-group row">
             <label class="col-form-label col-sm-4 text-right">Custom 'testid' attribute</label>
             <div class="col-sm-8">
-              <input type="text" name="custom_attribute1" class="form-control" testid="test-id-123"/>
+              <input type="text" name="custom_attribute1" class="form-control" testid="test-id-123" />
             </div>
           </div>
           <div class="form-group row">
             <label class="col-form-label col-sm-4 text-right">Custom 'data' Attribute</label>
             <div class="col-sm-8">
-              <input type="text" name="custom_attribute2" class="form-control" data="data-123"/>
+              <input type="text" name="custom_attribute2" class="form-control" data="data-123" />
             </div>
           </div>
           <div class="form-group row">
-            <label class="col-form-label col-sm-4 text-right">Matches Nothing with 3-letter Country Code 'pattern'</label>
+            <label class="col-form-label col-sm-4 text-right"
+              >Matches Nothing with 3-letter Country Code 'pattern'</label
+            >
             <div class="col-sm-8">
-              <input type="text" name="country_code" class="form-control" pattern="[A-Za-z]{3}" title="Three letter country code"/>
+              <input
+                type="text"
+                name="country_code"
+                class="form-control"
+                pattern="[A-Za-z]{3}"
+                title="Three letter country code"
+              />
             </div>
           </div>
           <div class="form-group row">
@@ -237,9 +245,11 @@
             </div>
           </div>
           <div class="form-group row">
-            <label class="col-form-label col-sm-4 text-right">type='number', min=100, max=500, step = 0.1</label>
+            <label class="col-form-label col-sm-4 text-right"
+              >Number (type='number', min=100, max=500, step = 0.1)</label
+            >
             <div class="col-sm-8">
-              <input type="number" name="number" class="form-control" min="100" max="500" step = ".1"/>
+              <input type="number" name="number" class="form-control" min="100" max="500" step=".1" />
             </div>
           </div>
           <div class="form-group row">
@@ -460,13 +470,17 @@
             </div>
           </div>
           <div class="form-group row">
-            <label class="col-form-label col-sm-4 text-right pt-0">Text Area Match Nothing, minlength and maxlength of 10</label>
+            <label class="col-form-label col-sm-4 text-right pt-0"
+              >Text Area Match Nothing, minlength and maxlength of 10</label
+            >
             <div class="col-sm-8">
               <textarea name="text_no_match" class="form-control" rows="3" minlength="10" maxlength="10"></textarea>
             </div>
           </div>
           <div class="form-group row">
-            <label class="col-form-label col-sm-4 text-right pt-0">Text Area Match Nothing, minlength and maxlength of 100</label>
+            <label class="col-form-label col-sm-4 text-right pt-0"
+              >Text Area Match Nothing, minlength and maxlength of 100</label
+            >
             <div class="col-sm-8">
               <textarea name="text_no_match" class="form-control" rows="3" minlength="100" maxlength="100"></textarea>
             </div>
@@ -524,7 +538,7 @@
         </div>
         <input type="hidden" name="email_hidden" />
       </form>
-      <iframe src="plain.html" style="width: 100%; height: 500px;"></iframe>
+      <iframe src="plain.html" style="width: 100%; height: 500px"></iframe>
       <br />
       <div id="form-data"></div>
       <br />

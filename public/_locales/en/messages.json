@@ -123,7 +123,7 @@
     "message": "Keyboard Shortcuts"
   },
   "kbdShortcuts_changeInstructions": {
-    "message": "<a href=\"https://github.com/calvinballing/fake-filler-extension/wiki/Keyboard-Shortcuts\" target=\"_blank\" rel=\"noopener noreferrer\">Change keyboard shortcuts</a>"
+    "message": "<a href=\"https://github.com/anburocky3/fake-filler-extension/wiki/Keyboard-Shortcuts\" target=\"_blank\" rel=\"noopener noreferrer\">Change keyboard shortcuts</a>"
   },
   "kbdShortcuts_notSet": {
     "message": "Not Set"
@@ -618,4 +618,3 @@
     "message": "Matched a Blocked URL"
   }
 }
-    

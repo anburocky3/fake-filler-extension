@@ -53,7 +53,7 @@ function App() {
             <Nav.Link as={NavLink} to="/backup">
               {GetMessage("leftNav_backupRestore")}
             </Nav.Link>
-            <Nav.Link href="https://github.com/calvinballing/fake-filler-extension/wiki" target="_blank">
+            <Nav.Link href="https://github.com/anburocky3/fake-filler-extension/wiki" target="_blank">
               Help
             </Nav.Link>
           </Nav>
@@ -79,7 +79,7 @@ function App() {
             <Link to="/changelog">{GetMessage("leftNav_changelog")}</Link>
           </li>
           <li className="list-inline-item">
-            <ExternalLink url="https://github.com/calvinballing/fake-filler-extension/issues">
+            <ExternalLink url="https://github.com/anburocky3/fake-filler-extension/issues">
               {GetMessage("leftNav_issueTracker")}
             </ExternalLink>
           </li>
