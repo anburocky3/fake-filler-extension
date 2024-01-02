@@ -15,7 +15,7 @@ This extension allows you to fill all form inputs (textboxes, textareas, radio b
 
 The Chrome extension is actively being developed. For the others, for the time being you'll need to compile them yourself.
 
-- **Chrome** extension - https://chrome.google.com/webstore/detail/fake-filler-2/cjikmgjafbapgbmlaobilpfjhoimmblo
+- **Chrome** extension - [Chrome Web Store](https://chromewebstore.google.com/detail/fake-filler-indian/djebpbfndpmiogcligbnfmjjjibjcbnn?hl=en)
 - **Edge** extension - TBD
 - **Firefox** add-on - TBD
 
