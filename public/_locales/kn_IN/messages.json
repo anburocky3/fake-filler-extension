@@ -1,0 +1,614 @@
+{
+  "extensionName": {
+    "message": " ಭಾರತೀಯ ನಕಲಿ ಫಿಲ್ಲರ್ "
+  },
+  "extensionName_short": {
+    "message": "ನಕಲಿ ಫಿಲ್ಲರ್ IN"
+  },
+  "extensionDescription": {
+    "message": " ಪುಟದಲ್ಲಿನ ಎಲ್ಲಾ ಇನ್‌ಪುಟ್‌ಗಳನ್ನು ನಕಲಿ ಡೇಟಾದೊಂದಿಗೆ ತುಂಬುವ ಭಾರತೀಯ ಫಾರ್ಮ್ ಫಿಲ್ಲರ್."
+  },
+  "actionTitle": {
+    "message": "ಡಮ್ಮಿ ಡೇಟಾದೊಂದಿಗೆ ಎಲ್ಲಾ ಇನ್‌ಪುಟ್‌ಗಳನ್ನು ಭರ್ತಿ ಮಾಡಿ"
+  },
+  "commands_FillThisForm": {
+    "message": "ಈ ಫಾರ್ಮ್ ಅನ್ನು ಭರ್ತಿ ಮಾಡಿ"
+  },
+  "commands_fillThisInput": {
+    "message": "ಈ ಇನ್‌ಪುಟ್ ಕ್ಷೇತ್ರವನ್ನು ಭರ್ತಿ ಮಾಡಿ"
+  },
+  "commands_fillAllInputs": {
+    "message": "ಎಲ್ಲಾ ಇನ್‌ಪುಟ್ಗಳನ್ನು ಭರ್ತಿ ಮಾಡಿ"
+  },
+  "bgPage_errorMigratingOptions": {
+    "message": "ನಕಲಿ ಫಿಲ್ಲರ್ IN ಆಯ್ಕೆಗಳನ್ನು ಸ್ಥಳಾಂತರಿಸುವಾಗ ದೋಷ ಸಂಭವಿಸಿದೆ: $1"
+  },
+  "close": {
+    "message": "ಮುಚ್ಚಿ"
+  },
+  "cancel": {
+    "message": "ರದ್ದುಮಾಡು"
+  },
+  "save": {
+    "message": "ಉಳಿಸಿ"
+  },
+  "saveSettings": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಉಳಿಸಿ"
+  },
+  "reset": {
+    "message": "ಮರುಹೊಂದಿಸಿ"
+  },
+  "edit": {
+    "message": "ತಿದ್ದು"
+  },
+  "move": {
+    "message": "ಸರಿಸಿ"
+  },
+  "delete": {
+    "message": "ಅಳಿಸಿ"
+  },
+  "loading": {
+    "message": "ಲೋಡ್ ಆಗುತ್ತಿದೆ..."
+  },
+  "testMe": {
+    "message": "ಪರೇಕ್ಷಿಸಿ"
+  },
+  "enterCsv": {
+    "message": "ಅಲ್ಪವಿರಾಮದಿಂದ ಬೇರ್ಪಡಿಸಿದ ಮೌಲ್ಯಗಳನ್ನು ನಮೂದಿಸಿ."
+  },
+  "leftNav_General": {
+    "message": "ಸಾಮಾನ್ಯ"
+  },
+  "leftNav_customFields": {
+    "message": "ಕಸ್ಟಮ್ ಕ್ಷೇತ್ರಗಳು"
+  },
+  "leftNav_keyboardShortcuts": {
+    "message": "ಕೀಬೋರ್ಡ್ ಶಾರ್ಟ್‌ಕಟ್‌ಗಳು"
+  },
+  "leftNav_backupRestore": {
+    "message": "ಬ್ಯಾಕಪ್ ಮತ್ತು ಮರುಸ್ಥಾಪಿಸಿ"
+  },
+  "leftNav_restoreFactorySettings": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಮರುಹೊಂದಿಸಿ"
+  },
+  "leftNav_changelog": {
+    "message": "ಚೇಂಜ್ಲಾಗ್"
+  },
+  "leftNav_issueTracker": {
+    "message": "ಸಮಸ್ಯೆ ಟ್ರ್ಯಾಕರ್"
+  },
+  "leftNav_confirmResetSettings": {
+    "message": "ಡೀಫಾಲ್ಟ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಮರುಹೊಂದಿಸಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?"
+  },
+  "leftNav_sendFeedback": {
+    "message": "ಈ ವಿಸ್ತರಣೆಯನ್ನು ಉತ್ತಮಗೊಳಿಸಲು ನೀವು ಯಾವುದೇ ಸಲಹೆಗಳನ್ನು ಹೊಂದಿದ್ದರೆ ಅಥವಾ ಯಾವುದೇ ಸಮಸ್ಯೆಗಳನ್ನು ಕಂಡುಕೊಂಡರೆ, ದಯವಿಟ್ಟು ನನಗೆ <a href=\"mailto:$1\">ಇಮೇಲ್</a> ಕಳುಹಿಸಿ."
+  },
+  "backupRestore_title": {
+    "message": "ಬ್ಯಾಕಪ್ ಮತ್ತು ಮರುಸ್ಥಾಪಿಸಿ"
+  },
+  "backupRestore_exportSettings": {
+    "message": "ರಫ್ತು ಸೆಟ್ಟಿಂಗ್‌ಗಳು"
+  },
+  "backupRestore_importSettings": {
+    "message": "ಆಮದು ಸೆಟ್ಟಿಂಗ್‌ಗಳು"
+  },
+  "backupRestore_errorCreatingBackupFile": {
+    "message": "ಬ್ಯಾಕಪ್ ಫೈಲ್ ರಚಿಸುವಲ್ಲಿ ದೋಷ: $1"
+  },
+  "backupRestore_settingImportSuccessMessage": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಆಮದು ಮಾಡಲಾಗಿದೆ! ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಕಾರ್ಯರೂಪಕ್ಕೆ ಬರಲು ನಿಮ್ಮ ಎಲ್ಲಾ ಟ್ಯಾಬ್‌ಗಳನ್ನು ನೀವು ಮರುಲೋಡ್ ಮಾಡಬೇಕಾಗುತ್ತದೆ."
+  },
+  "backupRestore_confirmRestore": {
+    "message": "ನೀವು ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಮರುಸ್ಥಾಪಿಸಲು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?\n\nಸೂಚನೆ: ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಬದಲಾಯಿಸಲಾಗುತ್ತದೆ."
+  },
+  "backupRestore_errorImporting": {
+    "message": "ಫೈಲ್‌ನಿಂದ ಆಮದು ಮಾಡಿಕೊಳ್ಳುವಲ್ಲಿ ದೋಷ: $1"
+  },
+  "backupRestore_errorReadingFile": {
+    "message": "ಬ್ಯಾಕಪ್ ಫೈಲ್ ಓದುವಾಗ ದೋಷ ಕಂಡುಬಂದಿದೆ."
+  },
+  "backupRestore_copyAndSaveToFile": {
+    "message": "ಇದನ್ನು ಪಠ್ಯ ಫೈಲ್‌ಗೆ ನಕಲಿಸಿ ಮತ್ತು ಉಳಿಸಿ."
+  },
+  "backupRestore_continueAnyway": {
+    "message": "ಆದರು ಮುಂದುವರಿಸಿ"
+  },
+  "backupRestore_confirmImportOldBackup": {
+    "message": "ನೀವು ಸಂಪೂರ್ಣವಾಗಿ ಖಚಿತವಾಗಿರುವಿರಾ? ಈ ಬ್ಯಾಕಪ್ ಅನ್ನು ಮರುಸ್ಥಾಪಿಸುವುದರಿಂದ ವಿಸ್ತರಣೆಯು ಕ್ರ್ಯಾಶ್ ಆಗಬಹುದು."
+  },
+  "backupRestore_oldBackupErrorMessage": {
+    "message": "ನೀವು ಮರುಸ್ಥಾಪಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತಿರುವ ಬ್ಯಾಕಪ್ ಫೈಲ್ ವಿಸ್ತರಣೆಯ ಹಳೆಯ ಆವೃತ್ತಿಯನ್ನು ಬಳಸಿಕೊಂಡು ರಚಿಸಲಾಗಿದೆ ಮತ್ತು ಆಮದು ಮಾಡಲಾಗುವುದಿಲ್ಲ."
+  },
+  "kbdShortcuts_title": {
+    "message": "ಕೀಬೋರ್ಡ್ ಶಾರ್ಟ್‌ಕಟ್‌ಗಳು"
+  },
+  "kbdShortcuts_changeInstructions": {
+    "message": "<a href=\"https://github.com/anburocky3/fake-filler-extension/wiki/Keyboard-Shortcuts\" target=\"_blank\" rel=\"noopener noreferrer\">ಕೀಬೋರ್ಡ್ ಶಾರ್ಟ್‌ಕಟ್‌ಗಳನ್ನು ಬದಲಾಯಿಸಿ</ a>"
+  },
+  "kbdShortcuts_notSet": {
+    "message": "ಹೊಂದಿಸಿಲ್ಲ"
+  },
+  "customFieldDetails_title": {
+    "message": "ಕಸ್ಟಮ್ ಫೀಲ್ಡ್ ವಿವರಗಳು"
+  },
+  "customFields_title": {
+    "message": "ಕಸ್ಟಮ್ ಕ್ಷೇತ್ರಗಳು"
+  },
+  "customFields_intro": {
+    "message": "ನಕಲಿ ಫಿಲ್ಲರ್ IN ಅದರ ಡೇಟಾ ಪ್ರಕಾರವನ್ನು ನಿರ್ಧರಿಸಲು ಲೇಬಲ್ ಪಠ್ಯದ ಜೊತೆಗೆ ಇನ್‌ಪುಟ್ ಕ್ಷೇತ್ರದ ID, NAME ಮತ್ತು CLASS ಮೌಲ್ಯಗಳನ್ನು ಬಳಸಬಹುದು."
+  },
+  "customFields_getMoreInfo": {
+    "message": "ವಿಸ್ತರಣೆಯು ಕಸ್ಟಮ್ ಕ್ಷೇತ್ರಗಳಿಗೆ ಹೇಗೆ ಹೊಂದಿಕೆಯಾಗುತ್ತದೆ ಎಂಬುದರ ಕುರಿತು ಹೆಚ್ಚಿನ ಮಾಹಿತಿ"
+  },
+  "customFields_addFieldButtonText": {
+    "message": "ಕ್ಷೇತ್ರವನ್ನು ಸೇರಿಸಿ"
+  },
+  "customFields_validation_missingType": {
+    "message": "ದಯವಿಟ್ಟು ಒಂದು ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ."
+  },
+  "customFields_validation_missingName": {
+    "message": "ದಯವಿಟ್ಟು ಈ ಕಸ್ಟಮ್ ಕ್ಷೇತ್ರಕ್ಕೆ ಹೆಸರನ್ನು ನಮೂದಿಸಿ."
+  },
+  "customFields_validation_missingTextMatch": {
+    "message": "ದಯವಿಟ್ಟು ಪಠ್ಯ ಹೊಂದಾಣಿಕೆ ಅಥವಾ ಸಾಮಾನ್ಯ ಅಭಿವ್ಯಕ್ತಿ ಹೊಂದಾಣಿಕೆಯನ್ನು ನಮೂದಿಸಿ."
+  },
+  "customFields_validation_missingTelephoneTemplate": {
+    "message": "ದಯವಿಟ್ಟು ದೂರವಾಣಿ ಸಂಖ್ಯೆಗಾಗಿ ಟೆಂಪ್ಲೇಟ್ ಅನ್ನು ನಮೂದಿಸಿ."
+  },
+  "customFields_validation_missingMinValue": {
+    "message": "ದಯವಿಟ್ಟು ಕನಿಷ್ಠ ಮೌಲ್ಯವನ್ನು ನಮೂದಿಸಿ."
+  },
+  "customFields_validation_missingMaxValue": {
+    "message": "ದಯವಿಟ್ಟು ಗರಿಷ್ಠ ಮೌಲ್ಯವನ್ನು ನಮೂದಿಸಿ."
+  },
+  "customFields_validation_missingMaxLength": {
+    "message": "ದಯವಿಟ್ಟು ಗರಿಷ್ಠ ಉದ್ದಕ್ಕೆ ಮೌಲ್ಯವನ್ನು ನಮೂದಿಸಿ."
+  },
+  "customFields_validation_invalidMinMaxValue": {
+    "message": "ಗರಿಷ್ಠ ಮೌಲ್ಯವು ಕನಿಷ್ಠ ಮೌಲ್ಯಕ್ಕಿಂತ ಕಡಿಮೆ ಇರುವಂತಿಲ್ಲ."
+  },
+  "customFields_validation_invalidMaxValue": {
+    "message": "ಕನಿಷ್ಠ ಮೌಲ್ಯವು ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚಾಗಿರಬೇಕು."
+  },
+  "customFields_validation_invalidMaxLengthValue": {
+    "message": "ಗರಿಷ್ಠ ಉದ್ದದ ಮೌಲ್ಯವು ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚಾಗಿರಬೇಕು."
+  },
+  "customFields_validation_missingDateTemplate": {
+    "message": "ದಯವಿಟ್ಟು ದಿನಾಂಕಕ್ಕಾಗಿ ಟೆಂಪ್ಲೇಟ್ ಅನ್ನು ನಮೂದಿಸಿ."
+  },
+  "customFields_validation_missingAlNumTemplate": {
+    "message": "ದಯವಿಟ್ಟು ಈ ಕ್ಷೇತ್ರಕ್ಕಾಗಿ ಫಾರ್ಮ್ಯಾಟ್ ಟೆಂಪ್ಲೇಟ್ ಅನ್ನು ನಿರ್ದಿಷ್ಟಪಡಿಸಿ."
+  },
+  "customFields_validation_missingRegEx": {
+    "message": "ದಯವಿಟ್ಟು ನಿಯಮಿತ ಅಭಿವ್ಯಕ್ತಿ ನಮೂದಿಸಿ."
+  },
+  "customFields_validation_missingRandomItems": {
+    "message": "ದಯವಿಟ್ಟು ಕೆಲವು ಐಟಂಗಳನ್ನು ನಮೂದಿಸಿ."
+  },
+  "customFields_validation_missingDecimalPlaces": {
+    "message": "ದಯವಿಟ್ಟು ದಶಮಾಂಶ ಸ್ಥಾನಗಳ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ."
+  },
+  "customFields_validation_onlyOneValueInGroup": {
+    "message": "ದಯವಿಟ್ಟು ಈ ಗುಂಪಿನಲ್ಲಿ ಒಂದು ಮೌಲ್ಯವನ್ನು ಮಾತ್ರ ನಮೂದಿಸಿ."
+  },
+  "customFields_validation_atLeastOneValueInGroup": {
+    "message": "ದಯವಿಟ್ಟು ಈ ಗುಂಪಿನಲ್ಲಿ ಕನಿಷ್ಠ ಒಂದು ಮೌಲ್ಯವನ್ನು ನಮೂದಿಸಿ."
+  },
+  "customFields_validation_invalidEmailUsername": {
+    "message": "ದಯವಿಟ್ಟು ಇಮೇಲ್ ಬಳಕೆದಾರಹೆಸರು ರಚನೆಯ ಆಯ್ಕೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ."
+  },
+  "customFields_validation_missingEmailUsernameList": {
+    "message": "ದಯವಿಟ್ಟು ಕೆಲವು ಬಳಕೆದಾರಹೆಸರುಗಳನ್ನು ನಮೂದಿಸಿ."
+  },
+  "customFields_validation_missingEmailUsernameRegEx": {
+    "message": "ದಯವಿಟ್ಟು ನಿಯಮಿತ ಅಭಿವ್ಯಕ್ತಿ ನಮೂದಿಸಿ."
+  },
+  "customFields_validation_invalidEmailHostname": {
+    "message": "ದಯವಿಟ್ಟು ಇಮೇಲ್ ಹೋಸ್ಟ್ ನೇಮ್ ಜನರೇಷನ್ ಆಯ್ಕೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ."
+  },
+  "customFields_validation_missingEmailHostnameList": {
+    "message": "ದಯವಿಟ್ಟು ಕೆಲವು ಹೋಸ್ಟ್ ಹೆಸರುಗಳನ್ನು ನಮೂದಿಸಿ."
+  },
+  "customFields_dateTypeHelp": {
+    "message": "ದಿನಾಂಕ/ಸಮಯದ ಮೌಲ್ಯಗಳನ್ನು ಫಾರ್ಮ್ಯಾಟ್ ಮಾಡಲು moment.js ಅನ್ನು ಬಳಸುತ್ತದೆ. ದಯವಿಟ್ಟು moment.js <a href=\"http://momentjs.com/docs/#/displaying/format/\" target=\"_blank\" rel=\"noopener noreferrer\">ಡಾಕ್ಯುಮೆಂಟೇಶನ್ ಅನ್ನು ಉಲ್ಲೇಖಿಸಿ a>. ಪ್ರಕಾರ=\"ದಿನಾಂಕ\" ಕ್ಷೇತ್ರಗಳಿಗಾಗಿ ಇದನ್ನು ನಿರ್ಲಕ್ಷಿಸಲಾಗುತ್ತದೆ."
+  },
+  "customFields_alNumHelp_uppercaseLetter": {
+    "message": "ಒಂದು ದೊಡ್ಡ ಅಕ್ಷರ."
+  },
+  "customFields_alNumHelp_lowercaseLetter": {
+    "message": "ಒಂದು ಸಣ್ಣ ಅಕ್ಷರ."
+  },
+  "customFields_alNumHelp_upperAndLowercaseLetter": {
+    "message": "ಒಂದು ಅಕ್ಷರ (ದೊಡ್ಡ ಅಥವಾ ಸಣ್ಣ)."
+  },
+  "customFields_alNumHelp_uppercaseConsonant": {
+    "message": "ಒಂದು ದೊಡ್ಡ ಅಕ್ಷರ ವ್ಯಂಜನ."
+  },
+  "customFields_alNumHelp_lowercaseConsonant": {
+    "message": "ಒಂದು ದೊಡ್ಡ ಅಕ್ಷರ ವ್ಯಂಜನ."
+  },
+  "customFields_alNumHelp_upperAndLowercaseConsonant": {
+    "message": "ಒಂದು ವ್ಯಂಜನ (ದೊಡ್ಡ ಅಥವಾ ಸಣ್ಣ)."
+  },
+  "customFields_alNumHelp_uppercaseVowel": {
+    "message": "ಒಂದು ದೊಡ್ಡ ಅಕ್ಷರ ಸ್ವರ."
+  },
+  "customFields_alNumHelp_lowercaseVowel": {
+    "message": "ಒಂದು ಸಣ್ಣ ಸ್ವರ."
+  },
+  "customFields_alNumHelp_upperAndLowercaseVowel": {
+    "message": "ಒಂದು ಸ್ವರ (ದೊಡ್ಡ ಅಥವಾ ಸಣ್ಣ)."
+  },
+  "customFields_alNumHelp_number09": {
+    "message": "ಯಾವುದಾರು ಸಂಖ್ಯೆ, 0-9."
+  },
+  "customFields_alNumHelp_number19": {
+    "message": "ಯಾವುದಾರು ಸಂಖ್ಯೆ, 1-9."
+  },
+  "customFields_alNumHelp_otherCharactersAsIs": {
+    "message": "ಯಾವುದೇ ಇತರ ಪಾತ್ರವು ಔಟ್‌ಪುಟ್ ಆಗಿರುತ್ತದೆ. ಮೇಲಿನ ಅಕ್ಷರಗಳನ್ನು [ಚದರ ಆವರಣಗಳಲ್ಲಿ] ಸುತ್ತುವ ಮೂಲಕ ತಪ್ಪಿಸಿಕೊಳ್ಳಬಹುದು."
+  },
+  "customFields_regExHelp": {
+    "message": "ನಿಯಮಿತ ಅಭಿವ್ಯಕ್ತಿ ಮಾದರಿಯನ್ನು ಆಧರಿಸಿದೆ ಯಾದೃಚ್ಛಿಕ ಡೇಟಾವನ್ನು ರಚಿಸಲು <a href=\"http://fent.github.io/randexp.js/\" target=\"_blank\" rel=\"noreferrer noopener\">randexp.js</a> ಅನ್ನು ಬಳಸುತ್ತದೆ."
+  },
+  "customFields_customFieldDetails": {
+    "message": "ಕಸ್ಟಮ್ ಫೀಲ್ಡ್ ವಿವರಗಳು"
+  },
+  "customFields_label_dataType": {
+    "message": "ಡೇಟಾ ಪ್ರಕಾರ"
+  },
+  "customFields_label_friendlyName": {
+    "message": "ಸ್ನೇಹಪರ ಹೆಸರು"
+  },
+  "customFields_label_match": {
+    "message": "ಹೊಂದಾಣಿಕೆ"
+  },
+  "customFields_label_text_match": {
+    "message": "ಪಠ್ಯ ಹೊಂದಾಣಿಕೆ"
+  },
+  "customFields_label_text_match_placeholder": {
+    "message": "ಅಲ್ಪವಿರಾಮದಿಂದ ಬೇರ್ಪಡಿಸಿದ ಮೌಲ್ಯಗಳು"
+  },
+  "customFields_label_text_match_helpText": {
+    "message": "ಹೊಂದಿಸಲು ಅಲ್ಪವಿರಾಮದಿಂದ ಬೇರ್ಪಡಿಸಿದ ಮೌಲ್ಯಗಳನ್ನು ನಮೂದಿಸಿ. ಆಲ್ಫಾನ್ಯೂಮರಿಕ್ ಅಲ್ಲದ ಅಕ್ಷರಗಳನ್ನು ಹೊಂದಿಸಲು ಪ್ರಯತ್ನಿಸುವ ಮೊದಲು ನಿಮ್ಮ ಹೊಂದಾಣಿಕೆಯ ತಂತಿಗಳಿಂದ ಮತ್ತು ಸಂಭಾವ್ಯ ಹೊಂದಾಣಿಕೆಗಳಿಂದ ತೆಗೆದುಹಾಕಲಾಗುತ್ತದೆ."
+  },
+  "customFields_label_regex_match": {
+    "message": "ರೆಜೆಕ್ಸ್ ಹೊಂದಾಣಿಕೆ"
+  },
+  "customFields_label_regex_match_placeholder": {
+    "message": "ಅಲ್ಪವಿರಾಮದಿಂದ ಬೇರ್ಪಡಿಸಿದ ನಿಯಮಿತ ಅಭಿವ್ಯಕ್ತಿಗಳು"
+  },
+  "customFields_label_regex_match_helpText": {
+    "message": "ಹೊಂದಿಸಲು ಅಲ್ಪವಿರಾಮದಿಂದ ಬೇರ್ಪಡಿಸಿದ ನಿಯಮಿತ ಅಭಿವ್ಯಕ್ತಿಗಳನ್ನು ನಮೂದಿಸಿ. ನಿಮ್ಮ ನಿಯಮಿತ ಅಭಿವ್ಯಕ್ತಿಗಳು ಯಾವುದೇ ಅಲ್ಪವಿರಾಮಗಳನ್ನು ಹೊಂದಿಲ್ಲ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ."
+  },
+  "customFields_label_template": {
+    "message": "ಟೆಂಪ್ಲೇಟ್"
+  },
+  "customFields_label_telephoneTemplate_helpText": {
+    "message": "1-9 ನಡುವಿನ ಸಂಖ್ಯೆಗೆ X ಮತ್ತು 0-9 ಗೆ x ಅನ್ನು ಬಳಸಿ."
+  },
+  "customFields_label_minValue": {
+    "message": "ಕನಿಷ್ಠ ಮೌಲ್ಯ"
+  },
+  "customFields_label_maxValue": {
+    "message": "ಗರಿಷ್ಠ ಮೌಲ್ಯ"
+  },
+  "customFields_label_decimalPlaces": {
+    "message": "ದಶಮಾಂಶ ಸ್ಥಳಗಳು"
+  },
+  "customFields_label_decimalPlaces_helpText": {
+    "message": "ದಶಮಾಂಶ ಬಿಂದುವಿನ ನಂತರದ ಅಂಕೆಗಳ ಸಂಖ್ಯೆ. ಉದಾ. 2 X.XX ಅನ್ನು ಉತ್ಪಾದಿಸುತ್ತದೆ ಮತ್ತು 3 X.XXX ಅನ್ನು ಉತ್ಪಾದಿಸುತ್ತದೆ"
+  },
+  "customFields_label_minWords": {
+    "message": "ಕನಿಷ್ಠ ಪದಗಳು"
+  },
+  "customFields_label_maxWords": {
+    "message": "ಗರಿಷ್ಠ ಪದಗಳು"
+  },
+  "customFields_label_maxLength": {
+    "message": "ಗರಿಷ್ಠ ಉದ್ದ"
+  },
+  "customFields_label_format": {
+    "message": "ಫಾರ್ಮ್ಯಾಟ್"
+  },
+  "customFields_label_pattern": {
+    "message": "ಪ್ಯಾಟರ್ನ್"
+  },
+  "customFields_label_listItems": {
+    "message": "ಐಟಂಗಳನ್ನು ಪಟ್ಟಿಮಾಡಿ"
+  },
+  "customFields_label_listItems_placeholder": {
+    "message": "ಪ್ರತಿ ಐಟಂ ಅನ್ನು ಹೊಸ ಸಾಲಿನಲ್ಲಿ ನಮೂದಿಸಿ."
+  },
+  "customFields_label_minDate": {
+    "message": "ಕನಿಷ್ಠ ದಿನಾಂಕ"
+  },
+  "customFields_label_maxDate": {
+    "message": "ಗರಿಷ್ಠ ದಿನಾಂಕ"
+  },
+  "customFields_label_datePrependText": {
+    "message": "ಇಂದಿನ ಜೊತೆಗೆ"
+  },
+  "customFields_label_dateAppendText": {
+    "message": "ದಿನಗಳು, ಅಥವಾ"
+  },
+  "customFields_label_date_helpText": {
+    "message": "ಹಿಂದಿನ ದಿನಾಂಕವನ್ನು ರಚಿಸಲು ಋಣಾತ್ಮಕ ಮೌಲ್ಯವನ್ನು ನಮೂದಿಸಿ."
+  },
+  "customFields_label_daysFromToday": {
+    "message": "ಇಂದಿನಿಂದ ದಿನಗಳು"
+  },
+  "customFields_label_hostname": {
+    "message": "ಹೋಸ್ಟ್ ಹೆಸರು"
+  },
+  "customFields_label_random": {
+    "message": "ಯಾದೃಚ್ಛಿಕ"
+  },
+  "customFields_label_previousUsername": {
+    "message": "ಹಿಂದೆ ರಚಿಸಲಾದ ಬಳಕೆದಾರಹೆಸರು"
+  },
+  "customFields_label_previousName": {
+    "message": "ಹಿಂದೆ ರಚಿಸಲಾದ ಮೊದಲ ಮತ್ತು ಕೊನೆಯ ಹೆಸರು"
+  },
+  "customFields_dataType_select": {
+    "message": "-- ಆಯ್ಕೆ ಮಾಡಿ --"
+  },
+  "customFields_dataType_humanDataLabel": {
+    "message": "ಮಾನವ ಡೇಟಾ"
+  },
+  "customFields_dataType_firstName": {
+    "message": "ಮೊದಲ ಹೆಸರು"
+  },
+  "customFields_dataType_lastName": {
+    "message": "ಕೊನೆಯ ಹೆಸರು"
+  },
+  "customFields_dataType_fullName": {
+    "message": "ಪೂರ್ಣ ಹೆಸರು"
+  },
+  "customFields_dataType_username": {
+    "message": "ಬಳಕೆದಾರ ಹೆಸರು"
+  },
+  "customFields_dataType_emailAddress": {
+    "message": "ಇಮೇಲ್ ವಿಳಾಸ"
+  },
+  "customFields_dataType_companyName": {
+    "message": "ಸಂಸ್ಥೆ/ಕಂಪೆನಿ ಹೆಸರು"
+  },
+  "customFields_dataType_telephone": {
+    "message": "ದೂರವಾಣಿ ಸಂಖ್ಯೆ"
+  },
+  "customFields_dataType_number": {
+    "message": "ಸಂಖ್ಯೆ"
+  },
+  "customFields_dataType_date": {
+    "message": "ದಿನಾಂಕ"
+  },
+  "customFields_dataType_url": {
+    "message": "URL/ವೆಬ್‌ಸೈಟ್ ವಿಳಾಸ"
+  },
+  "customFields_dataType_otherLabel": {
+    "message": "ಇತರೆ"
+  },
+  "customFields_dataType_text": {
+    "message": "ಪಠ್ಯ"
+  },
+  "customFields_dataType_alphaNumeric": {
+    "message": "ಆಲ್ಫಾನ್ಯೂಮರಿಕ್"
+  },
+  "customFields_dataType_regEx": {
+    "message": "ನಿಯಮಿತ ಅಭಿವ್ಯಕ್ತಿ"
+  },
+  "customFields_dataType_randomizedList": {
+    "message": "ಯಾದೃಚ್ಛಿಕ ಪಟ್ಟಿ"
+  },
+  "customFields_delete_confirm_message": {
+    "message": "ಈ ಕಸ್ಟಮ್ ಕ್ಷೇತ್ರವನ್ನು ಅಳಿಸಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?"
+  },
+  "customFields_ordering_help": {
+    "message": "ಇನ್‌ಪುಟ್‌ಗಳನ್ನು ಅವು ಹೊಂದಿಕೆಯಾಗುವ ಮೊದಲ ನಿಯಮದಿಂದ ತುಂಬಿಸಲಾಗುತ್ತದೆ."
+  },
+  "customFields_label_hostName_randomLabel": {
+    "message": "ಯಾದೃಚ್ಛಿಕವಾಗಿ ರಚಿಸಲಾದ ಹೋಸ್ಟ್ ಹೆಸರನ್ನು ಬಳಸಿ"
+  },
+  "customFields_label_hostName_listLabel": {
+    "message": "ಕೆಳಗಿನ ಪಟ್ಟಿಯಿಂದ ಆಯ್ಕೆಮಾಡಿ:"
+  },
+  "customFields_label_hostName_listTextHelp": {
+    "message": "ಪ್ರತಿ ಹೆಸರನ್ನು ಅಲ್ಪವಿರಾಮದೊಂದಿಗೆ ಪಟ್ಟಿ ಮಾಡಿ. ನೀವು @ ಚಿಹ್ನೆಯನ್ನು ಸಹ ಸೇರಿಸಿಕೊಳ್ಳಬಹುದು."
+  },
+  "customFields_label_emailUsernamePrefix": {
+    "message": "ಬಳಕೆದಾರಹೆಸರು ಪೂರ್ವಪ್ರತ್ಯಯ"
+  },
+  "customFields_label_username": {
+    "message": "ಬಳಕೆದಾರ ಹೆಸರು"
+  },
+  "customFields_label_username_usernameLabel": {
+    "message": "ಹಿಂದೆ ರಚಿಸಲಾದ ಬಳಕೆದಾರ ಹೆಸರನ್ನು ಬಳಸಿ"
+  },
+  "customFields_label_username_nameLabel": {
+    "message": "ಹಿಂದೆ ರಚಿಸಿದ ಮೊದಲ ಮತ್ತು ಕೊನೆಯ ಹೆಸರನ್ನು ಬಳಸಿ"
+  },
+  "customFields_label_username_randomLabel": {
+    "message": "ಯಾದೃಚ್ಛಿಕ ಹೆಸರನ್ನು ಬಳಸಿ"
+  },
+  "customFields_label_username_listLabel": {
+    "message": "ಕೆಳಗಿನ ಪಟ್ಟಿಯಿಂದ ಆಯ್ಕೆಮಾಡಿ (ಪ್ರತಿಯೊಂದು ಹೆಸರನ್ನು ಅಲ್ಪವಿರಾಮದೊಂದಿಗೆ ಪಟ್ಟಿ ಮಾಡಿ.):"
+  },
+  "customFields_label_username_regExLabel": {
+    "message": "ಈ ನಿಯಮಿತ ಅಭಿವ್ಯಕ್ತಿಯನ್ನು ಬಳಸಿ:"
+  },
+  "customFields_label_username_regExTextPlaceholder": {
+    "message": "ನಿಯಮಿತ ಅಭಿವ್ಯಕ್ತಿ."
+  },
+  "generalSettings_validation_enterPassword": {
+    "message": "ದಯವಿಟ್ಟು ಪಾಸ್‌ವರ್ಡ್ ನಮೂದಿಸಿ."
+  },
+  "generalSettings_validation_enterAtLeastOneMatch": {
+    "message": "ನೀವು ಕನಿಷ್ಟ ಒಂದು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಬೇಕು."
+  },
+  "generalSettings_validation_invalidDefaultMaxLength": {
+    "message": "ಡೀಫಾಲ್ಟ್ ಗರಿಷ್ಠ ಉದ್ದದ ಮೌಲ್ಯವು ಶೂನ್ಯಕ್ಕಿಂತ ಹೆಚ್ಚಾಗಿರಬೇಕು."
+  },
+  "generalSettings_passwordSettings": {
+    "message": "ಪಾಸ್ವರ್ಡ್ ಸೆಟ್ಟಿಂಗ್ಗಳು"
+  },
+  "generalSettings_fieldOptions": {
+    "message": "ಕ್ಷೇತ್ರ ಆಯ್ಕೆಗಳು"
+  },
+  "generalSettings_ignoreFieldsMatch": {
+    "message": "ಫೀಲ್ಡ್ಸ್ ಮ್ಯಾಚ್ ಅನ್ನು ನಿರ್ಲಕ್ಷಿಸಿ"
+  },
+  "generalSettings_ignoreHiddenFieldsLabel": {
+    "message": "ಎಲ್ಲಾ ಗುಪ್ತ/ಅದೃಶ್ಯ ಕ್ಷೇತ್ರಗಳನ್ನು ನಿರ್ಲಕ್ಷಿಸಿ"
+  },
+  "generalSettings_ignoreFieldsWithContentLabel": {
+    "message": "ಈಗಾಗಲೇ ವಿಷಯವನ್ನು ಹೊಂದಿರುವ ಕ್ಷೇತ್ರಗಳನ್ನು ನಿರ್ಲಕ್ಷಿಸಿ"
+  },
+  "generalSettings_note": {
+    "message": "ಸೂಚನೆ"
+  },
+  "generalSettings_confirmationFieldsMatch": {
+    "message": "ದೃಢೀಕರಣ ಕ್ಷೇತ್ರಗಳ ಹೊಂದಾಣಿಕೆ"
+  },
+  "generalSettings_confirmFieldsHelp": {
+    "message": "ಈ ಯಾವುದೇ ಮೌಲ್ಯಗಳಿಗೆ ಹೊಂದಾಣಿಕೆಯಾಗುವ ಇನ್‌ಪುಟ್‌ಗಳಿಗಾಗಿ ಹಿಂದಿನ ಇನ್‌ಪುಟ್ ಕ್ಷೇತ್ರದಲ್ಲಿ ನಮೂದಿಸಿದ ಡೇಟಾವನ್ನು ಬಳಸಲಾಗುತ್ತದೆ."
+  },
+  "generalSettings_agreeToTermsMatch": {
+    "message": "ನಿಯಮಗಳ ಕ್ಷೇತ್ರಗಳ ಹೊಂದಾಣಿಕೆಗೆ ಸಮ್ಮತಿಸಿ"
+  },
+  "generalSettings_agreeToTermsMatchHelp": {
+    "message": "ಈ ಯಾವುದೇ ಮೌಲ್ಯಗಳಿಗೆ ಹೊಂದಾಣಿಕೆಯಾಗುವ ಚೆಕ್‌ಬಾಕ್ಸ್‌ಗಳನ್ನು ಯಾವಾಗಲೂ ಪರಿಶೀಲಿಸಲಾಗುತ್ತದೆ."
+  },
+  "generalSettings_customAttributes": {
+    "message": "ಕಸ್ಟಮ್ ಗುಣಲಕ್ಷಣಗಳು"
+  },
+  "generalSettings_customAttributes_placeholder": {
+    "message": "ಕಸ್ಟಮ್ ಗುಣಲಕ್ಷಣಗಳು"
+  },
+  "generalSettings_customAttributesHelp": {
+    "message": "ಹೊಂದಿಸಲು ಕಸ್ಟಮ್ ಗುಣಲಕ್ಷಣಗಳನ್ನು ಅಲ್ಪವಿರಾಮದಿಂದ ಬೇರ್ಪಡಿಸಿದ ಪಟ್ಟಿಯನ್ನು ನಮೂದಿಸಿ"
+  },
+  "generalSettings_urlBlocking": {
+    "message": "URL ನಿರ್ಬಂಧಿಸಲಾಗುತ್ತಿದೆ"
+  },
+  "generalSettings_urlBlockingLabel": {
+    "message": "ನಿರ್ಬಂದಿಸಬೇಕಾದ URL ಗಳು"
+  },
+  "generalSettings_urlBlockingHelp": {
+    "message": "URL ಗಳನ್ನು ಹೊಂದಿಸಲು ನಿಯಮಿತ ಅಭಿವ್ಯಕ್ತಿಗಳ ಅಲ್ಪವಿರಾಮದಿಂದ ಬೇರ್ಪಡಿಸಿದ ಪಟ್ಟಿಯನ್ನು ನಮೂದಿಸಿ. ಈ URL ಗಳಲ್ಲಿರುವ ಕ್ಷೇತ್ರಗಳು ಎಂದಿಗೂ ನಕಲಿ ಫಿಲ್ಲರ್ 2 ಗೆ ಹೊಂದಿಕೆಯಾಗುವುದಿಲ್ಲ."
+  },
+  "generalSettings_triggerEvents": {
+    "message": "ಈವೆಂಟ್‌ಗಳನ್ನು ಪ್ರಚೋದಿಸಿ"
+  },
+  "generalSettings_triggerEventsLabel": {
+    "message": "ಇನ್‌ಪುಟ್ ಕ್ಷೇತ್ರಗಳಲ್ಲಿ ಈವೆಂಟ್‌ಗಳನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ/ಬದಲಾಯಿಸಿ"
+  },
+  "generalSettings_uploadFiles": {
+    "message": "ಫೈಲ್‌ಗಳನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ"
+  },
+  "generalSettings_uploadFilesLabel": {
+    "message": "ಫೈಲ್ ಇನ್‌ಪುಟ್ ಕ್ಷೇತ್ರಗಳಲ್ಲಿ ಉದಾಹರಣೆ ಫೈಲ್‌ಗಳನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡಿ"
+  },
+  "generalSettings_contextMenu": {
+    "message": "ಸಂದರ್ಭ ಮೆನು"
+  },
+  "generalSettings_contextMenuLabel": {
+    "message": "ಬಲ ಕ್ಲಿಕ್ ಮೆನುಗೆ ಐಟಂಗಳನ್ನು ಸೇರಿಸಿ"
+  },
+  "generalSettings_defaultMaxLength": {
+    "message": "ಗರಿಷ್ಠ ಉದ್ದ"
+  },
+  "generalSettings_defaultMaxLength_help": {
+    "message": "ನಕಲಿ ಪಠ್ಯದೊಂದಿಗೆ ತುಂಬಲು ಡೀಫಾಲ್ಟ್ ಗರಿಷ್ಠ ಸಂಖ್ಯೆಯ ಅಕ್ಷರಗಳು (ಯಾವುದೇ ಕಸ್ಟಮ್ ಕ್ಷೇತ್ರಗಳು ಹೊಂದಿಕೆಯಾಗದಿದ್ದಾಗ)."
+  },
+  "generalSettings_settingsSaved": {
+    "message": "ಉಳಿಸಿದ ಸೆಟ್ಟಿಂಗ್‌ಗಳು."
+  },
+  "generalSettings_matchFieldsUsing": {
+    "message": "ಬಳಸಿ ಕ್ಷೇತ್ರಗಳನ್ನು ಹೊಂದಿಸಿ"
+  },
+  "generalSettings_matchFields_useLabel": {
+    "message": "ಇನ್‌ಪುಟ್ ಟ್ಯಾಗ್‌ಗಾಗಿ ಲೇಬಲ್ ಪಠ್ಯ"
+  },
+  "generalSettings_matchFields_useAriaLabel": {
+    "message": "ಇನ್‌ಪುಟ್ ಟ್ಯಾಗ್‌ನ aria-ಲೇಬಲ್ ಗುಣಲಕ್ಷಣ"
+  },
+  "generalSettings_matchFields_useAriaLabelledBy": {
+    "message": "ಇನ್‌ಪುಟ್ ಟ್ಯಾಗ್‌ನ ಗುಣಲಕ್ಷಣದಿಂದ ಏರಿಯಾ-ಲೇಬಲ್ ಮಾಡಲಾಗಿದೆ"
+  },
+  "generalSettings_matchFields_useId": {
+    "message": "ಇನ್‌ಪುಟ್ ಟ್ಯಾಗ್‌ನ ಐಡಿ ಗುಣಲಕ್ಷಣ"
+  },
+  "generalSettings_matchFields_useName": {
+    "message": "ಇನ್‌ಪುಟ್ ಟ್ಯಾಗ್‌ನ ವರ್ಗಹೆಸರು ಗುಣಲಕ್ಷಣ"
+  },
+  "generalSettings_matchFields_useClass": {
+    "message": "ಇನ್‌ಪುಟ್ ಟ್ಯಾಗ್‌ನ ವರ್ಗ ಗುಣಲಕ್ಷಣ"
+  },
+  "generalSettings_matchFields_usePlaceholder": {
+    "message": "ಇನ್‌ಪುಟ್ ಟ್ಯಾಗ್‌ನ ಪ್ಲೇಸ್‌ಹೋಲ್ಡರ್ ಗುಣಲಕ್ಷಣ"
+  },
+  "generalSettings_matchFields_mustSelectOneOption": {
+    "message": "ನೀವು ಕನಿಷ್ಟ ಒಂದು ಆಯ್ಕೆಯನ್ನು ಆರಿಸಬೇಕು."
+  },
+  "generalSettings_matchFields_help": {
+    "message": "ಇನ್‌ಪುಟ್ ಅಂಶಗಳು ಹೇಗೆ ಹೊಂದಾಣಿಕೆಯಾಗುತ್ತವೆ ಎಂಬುದನ್ನು ತಿಳಿಯಲು ದಯವಿಟ್ಟು ಕಸ್ಟಮ್ ಕ್ಷೇತ್ರಗಳ ವಿಭಾಗವನ್ನು ನೋಡಿ."
+  },
+  "generalSettings_password": {
+    "message": "ಗುಪ್ತಪದ"
+  },
+  "generalSettings_password_randomLabel": {
+    "message": "ಯಾದೃಚ್ಛಿಕ 8 ಅಕ್ಷರದ ಗುಪ್ತಪದವನ್ನು ರಚಿಸಿ (ಕನ್ಸೋಲ್‌ನಲ್ಲಿ ಲಾಗ್ ಇನ್ ಆಗಿದೆ)"
+  },
+  "generalSettings_password_useThisLabel": {
+    "message": "ಇದನ್ನು ಬಳಸು:"
+  },
+  "generalSettings_passwordHelp": {
+    "message": "ಯಾದೃಚ್ಛಿಕ 8 ಅಕ್ಷರದ ಗುಪ್ತಪದವನ್ನು ರಚಿಸಲು ಇದನ್ನು ಖಾಲಿ ಬಿಡಿ (ಕನ್ಸೋಲ್‌ನಲ್ಲಿ ಲಾಗ್ ಇನ್ ಆಗಿದೆ)."
+  },
+  "profile": {
+    "message": "ಪ್ರೊಫೈಲ್"
+  },
+  "profiles": {
+    "message": "ಪ್ರೊಫೈಲ್ಗಳು"
+  },
+  "profiles_default_name": {
+    "message": "ಡೀಫಾಲ್ಟ್"
+  },
+  "profiles_delete_button_label": {
+    "message": "ಪ್ರೊಫೈಲ್ ಅಳಿಸಿ"
+  },
+  "profiles_create_button_label": {
+    "message": "ಹೊಸ ಪ್ರೊಫೈಲ್    "
+  },
+  "profile_validation_missingName": {
+    "message": "ಈ ಪ್ರೊಫೈಲ್‌ಗೆ ಹೆಸರನ್ನು ನಮೂದಿಸಿ"
+  },
+  "profile_validation_missingUrlMatch": {
+    "message": "URL ಗೆ ಹೊಂದಿಸಲು ದಯವಿಟ್ಟು ನಿಯಮಿತ ಅಭಿವ್ಯಕ್ತಿ ನಮೂದಿಸಿ."
+  },
+  "profile_modal_title": {
+    "message": "ಪ್ರೊಫೈಲ್ ವಿವರಗಳು    "
+  },
+  "profile_label_name": {
+    "message": "ಪ್ರೊಫೈಲ್ ಹೆಸರು"
+  },
+  "profile_label_urlMatch": {
+    "message": "URL ಹೊಂದಾಣಿಕೆಯ ಅಭಿವ್ಯಕ್ತಿ"
+  },
+  "profile_label_urlMatch_helpText": {
+    "message": "ಈ ಪ್ರೊಫೈಲ್ ಅನ್ವಯಿಸುವ URL ಅನ್ನು ಹೊಂದಿಸಲು ನಿಯಮಿತ ಅಭಿವ್ಯಕ್ತಿಯನ್ನು ನಮೂದಿಸಿ."
+  },
+  "profile_delete_confirm_message": {
+    "message": "ಈ ಪ್ರೊಫೈಲ್ ಅನ್ನು ಅಳಿಸಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?"
+  },
+  "profile_url_matching_expression": {
+    "message": "URL ಹೊಂದಾಣಿಕೆಯ ಅಭಿವ್ಯಕ್ತಿ"
+  },
+  "matchedProfile": {
+    "message": "ಹೊಂದಾಣಿಕೆಯ ಪ್ರೊಫೈಲ್"
+  },
+  "matchedBlockedURL": {
+    "message": "ನಿರ್ಬಂಧಿಸಿದ URL ಗೆ ಹೊಂದಿಕೆಯಾಗಿದೆ"
+  }
+}
