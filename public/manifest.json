@@ -47,11 +47,17 @@
     }
   ],
   "background": {
-    "service_worker": "service_worker.js",
+    "scripts": ["service_worker.js"],
     "type": "module"
   },
   "options_ui": {
     "page": "options.html",
     "open_in_tab": true
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{d6a76a34-0d7c-42af-938d-a4713cc1464d}",
+      "strict_min_version": "42.0"
+    }
   }
 }
